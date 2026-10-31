@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: de0f7416bb88a8624afdf582c7a43ab7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3780555514031946640
+    second: ClearBlueSky_0
+  - first:
+      213: -7842607617583426433
+    second: ClearBlueSky_1
+  - first:
+      213: 2406609911471653369
+    second: ClearBlueSky_2
+  - first:
+      213: -3040606001730836121
+    second: ClearBlueSky_3
+  - first:
+      213: 1218324194415906797
+    second: ClearBlueSky_4
+  - first:
+      213: -8840073068643693788
+    second: ClearBlueSky_5
+  - first:
+      213: -2964259329306017306
+    second: ClearBlueSky_6
+  - first:
+      213: 9111334945557710358
+    second: ClearBlueSky_7
+  - first:
+      213: -8876335227760595795
+    second: ClearBlueSky_8
+  - first:
+      213: -8903159499586855229
+    second: ClearBlueSky_9
+  - first:
+      213: 4589970085587349347
+    second: ClearBlueSky_10
+  - first:
+      213: 8629616492476633411
+    second: ClearBlueSky_11
+  - first:
+      213: -2956630834819899757
+    second: ClearBlueSky_12
+  - first:
+      213: 8808541207349845901
+    second: ClearBlueSky_13
+  - first:
+      213: -1419882979896049319
+    second: ClearBlueSky_14
+  - first:
+      213: -5200217078573705748
+    second: ClearBlueSky_15
+  - first:
+      213: -8187804570161958448
+    second: ClearBlueSky_16
+  - first:
+      213: 5686710435289923637
+    second: ClearBlueSky_17
+  - first:
+      213: 4919412395581370772
+    second: ClearBlueSky_18
+  - first:
+      213: -7871878688851337687
+    second: ClearBlueSky_19
+  - first:
+      213: 7655080797340439529
+    second: ClearBlueSky_20
+  - first:
+      213: -9003711754765459727
+    second: ClearBlueSky_21
+  - first:
+      213: -5128248440702361183
+    second: ClearBlueSky_22
+  - first:
+      213: -8529106475416048679
+    second: ClearBlueSky_23
+  - first:
+      213: 2421711521086143170
+    second: ClearBlueSky_24
+  - first:
+      213: -4093068230169769739
+    second: ClearBlueSky_25
+  - first:
+      213: 7741053606636847226
+    second: ClearBlueSky_26
+  - first:
+      213: -5913421100703917677
+    second: ClearBlueSky_27
+  - first:
+      213: 2787724433191011190
+    second: ClearBlueSky_28
+  - first:
+      213: 932679609097257754
+    second: ClearBlueSky_29
+  - first:
+      213: -1086064951461970369
+    second: ClearBlueSky_30
+  - first:
+      213: -6212167935841504183
+    second: ClearBlueSky_31
+  - first:
+      213: -1556422367460312243
+    second: ClearBlueSky_32
+  - first:
+      213: 2286369672424405934
+    second: ClearBlueSky_33
+  - first:
+      213: -3539381019012119201
+    second: ClearBlueSky_34
+  - first:
+      213: 4869288758388838875
+    second: ClearBlueSky_35
+  - first:
+      213: -6499673793664354374
+    second: ClearBlueSky_36
+  - first:
+      213: 2727707123787651289
+    second: ClearBlueSky_37
+  - first:
+      213: -7851327955057015474
+    second: ClearBlueSky_38
+  - first:
+      213: -8127079026467961215
+    second: ClearBlueSky_39
+  - first:
+      213: -2553634695588717480
+    second: ClearBlueSky_40
+  - first:
+      213: -403559708435944424
+    second: ClearBlueSky_41
+  - first:
+      213: 2735384245534421071
+    second: ClearBlueSky_42
+  - first:
+      213: -913062095175591405
+    second: ClearBlueSky_43
+  - first:
+      213: 3487806871960196368
+    second: ClearBlueSky_44
+  - first:
+      213: -3944820180175824510
+    second: ClearBlueSky_45
+  - first:
+      213: 8525751254378774708
+    second: ClearBlueSky_46
+  - first:
+      213: -3652356711752480225
+    second: ClearBlueSky_47
+  - first:
+      213: 2956903047791293610
+    second: ClearBlueSky_48
+  - first:
+      213: -3505866909464642428
+    second: ClearBlueSky_49
+  - first:
+      213: -8302503120929510836
+    second: ClearBlueSky_50
+  - first:
+      213: -4748049442035464276
+    second: ClearBlueSky_51
+  - first:
+      213: -9033744824034207831
+    second: ClearBlueSky_52
+  - first:
+      213: -5636062480854620919
+    second: ClearBlueSky_53
+  - first:
+      213: -6355809270205554650
+    second: ClearBlueSky_54
+  - first:
+      213: 459770216858758288
+    second: ClearBlueSky_55
+  - first:
+      213: -1527330745595514315
+    second: ClearBlueSky_56
+  - first:
+      213: -5008895363512462238
+    second: ClearBlueSky_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 142.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyFX_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627
+        width: 627
+        height: 627
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc9e666a90db4ecaa9353ddb0555c0e
+      internalID: -96413853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyFX_01
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 627
+        width: 627
+        height: 627
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcde52fe2d01026da29f861a30f82cd
+      internalID: -1361459778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyFX_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 627
+        height: 627
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4667598d5287792b0ac85e8d66e17d34
+      internalID: -968906145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyFX_03
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 627
+        height: 627
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2662803b466dd93c9b6fadc16870763
+      internalID: 1264827584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f8a3898ff862fd2c8be9db96dbd4ee5b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyFX_00: -96413853
+      SkyFX_01: -1361459778
+      SkyFX_02: -968906145
+      SkyFX_03: 1264827584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

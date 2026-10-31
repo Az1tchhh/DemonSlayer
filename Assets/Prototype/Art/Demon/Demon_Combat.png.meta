@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 5abfe2d9949faadb7b7be42b9d2a1c40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1687121041856631936
+    second: Demon_Combat_0
+  - first:
+      213: 3644641219843310618
+    second: Demon_Combat_1
+  - first:
+      213: -3522198953840963616
+    second: Demon_Combat_2
+  - first:
+      213: -688090613829719800
+    second: Demon_Combat_3
+  - first:
+      213: 7218843468185991707
+    second: Demon_Combat_4
+  - first:
+      213: 126432174775239598
+    second: Demon_Combat_5
+  - first:
+      213: 1321566008375945745
+    second: Demon_Combat_6
+  - first:
+      213: 3310702330994699948
+    second: Demon_Combat_7
+  - first:
+      213: -7132142090235839771
+    second: Demon_Combat_8
+  - first:
+      213: 6032264589294074124
+    second: Demon_Combat_9
+  - first:
+      213: 3042295201526931587
+    second: Demon_Combat_10
+  - first:
+      213: -245524491767115575
+    second: Demon_Combat_11
+  - first:
+      213: -5948815196046457282
+    second: Demon_Combat_12
+  - first:
+      213: 4296255955802158919
+    second: Demon_Combat_13
+  - first:
+      213: 6456003911450985090
+    second: Demon_Combat_14
+  - first:
+      213: 7980359033508420633
+    second: Demon_Combat_15
+  - first:
+      213: -420582628489022353
+    second: Demon_Combat_16
+  - first:
+      213: 2430578600500191447
+    second: Demon_Combat_17
+  - first:
+      213: 3358498168583216870
+    second: Demon_Combat_18
+  - first:
+      213: 6760180162883896184
+    second: Demon_Combat_19
+  - first:
+      213: -7844880049212071050
+    second: Demon_Combat_20
+  - first:
+      213: 5332232151500771983
+    second: Demon_Combat_21
+  - first:
+      213: -5594604661578733760
+    second: Demon_Combat_22
+  - first:
+      213: -6138836316983973828
+    second: Demon_Combat_23
+  - first:
+      213: 2830379258499808998
+    second: Demon_Combat_24
+  - first:
+      213: 6196437738724691048
+    second: Demon_Combat_25
+  - first:
+      213: -6762695288667650800
+    second: Demon_Combat_26
+  - first:
+      213: 5628175411630317697
+    second: Demon_Combat_27
+  - first:
+      213: 3197132904419599009
+    second: Demon_Combat_28
+  - first:
+      213: 6461269530812661823
+    second: Demon_Combat_29
+  - first:
+      213: 1830236776863295914
+    second: Demon_Combat_30
+  - first:
+      213: 4538135087786130306
+    second: Demon_Combat_31
+  - first:
+      213: 5889806403280496508
+    second: Demon_Combat_32
+  - first:
+      213: -7711251567889481905
+    second: Demon_Combat_33
+  - first:
+      213: -893617232677365801
+    second: Demon_Combat_34
+  - first:
+      213: -556822660311492727
+    second: Demon_Combat_35
+  - first:
+      213: 8450193983138621185
+    second: Demon_Combat_36
+  - first:
+      213: 3268918891312246918
+    second: Demon_Combat_37
+  - first:
+      213: 5635962488244671781
+    second: Demon_Combat_38
+  - first:
+      213: -6941682806870144489
+    second: Demon_Combat_39
+  - first:
+      213: 360949349257966402
+    second: Demon_Combat_40
+  - first:
+      213: 2563291976040659999
+    second: Demon_Combat_41
+  - first:
+      213: -6966800782204600238
+    second: Demon_Combat_42
+  - first:
+      213: 8857949310819053438
+    second: Demon_Combat_43
+  - first:
+      213: 7130664029041014426
+    second: Demon_Combat_44
+  - first:
+      213: 9155882828024869874
+    second: Demon_Combat_45
+  - first:
+      213: 438232904415818979
+    second: Demon_Combat_46
+  - first:
+      213: -2873760296932862063
+    second: Demon_Combat_47
+  - first:
+      213: -793628924227015878
+    second: Demon_Combat_48
+  - first:
+      213: 2885923191111496915
+    second: Demon_Combat_49
+  - first:
+      213: -5998123937794535102
+    second: Demon_Combat_50
+  - first:
+      213: -3860388997901299200
+    second: Demon_Combat_51
+  - first:
+      213: 9190261734906828046
+    second: Demon_Combat_52
+  - first:
+      213: -8896754843715313600
+    second: Demon_Combat_53
+  - first:
+      213: 5538183232068816828
+    second: Demon_Combat_54
+  - first:
+      213: 1581045111092541792
+    second: Demon_Combat_55
+  - first:
+      213: 7094212959883923039
+    second: Demon_Combat_56
+  - first:
+      213: 9141926468741612168
+    second: Demon_Combat_57
+  - first:
+      213: 2208179831688032653
+    second: Demon_Combat_58
+  - first:
+      213: -4806990025254087258
+    second: Demon_Combat_59
+  - first:
+      213: -7989623173151341769
+    second: Demon_Combat_60
+  - first:
+      213: 569171710724351532
+    second: Demon_Combat_61
+  - first:
+      213: -4950734208570301116
+    second: Demon_Combat_62
+  - first:
+      213: -6037859404735698084
+    second: Demon_Combat_63
+  - first:
+      213: 5011346581997998460
+    second: Demon_Combat_64
+  - first:
+      213: -266932966476037335
+    second: Demon_Combat_65
+  - first:
+      213: 7162908522486085268
+    second: Demon_Combat_66
+  - first:
+      213: -389299771509467276
+    second: Demon_Combat_67
+  - first:
+      213: 9015175534062078965
+    second: Demon_Combat_68
+  - first:
+      213: 6289246487640674482
+    second: Demon_Combat_69
+  - first:
+      213: 8940996752863565671
+    second: Demon_Combat_70
+  - first:
+      213: 6787526983958043329
+    second: Demon_Combat_71
+  - first:
+      213: 400846960465464055
+    second: Demon_Combat_72
+  - first:
+      213: -3828179492919290226
+    second: Demon_Combat_73
+  - first:
+      213: -2487323400154752227
+    second: Demon_Combat_74
+  - first:
+      213: 679660792223276032
+    second: Demon_Combat_75
+  - first:
+      213: 2478245127076630207
+    second: Demon_Combat_76
+  - first:
+      213: 9006948822292347667
+    second: Demon_Combat_77
+  - first:
+      213: 2993828293966532206
+    second: Demon_Combat_78
+  - first:
+      213: -4676199647539633778
+    second: Demon_Combat_79
+  - first:
+      213: -7583080782775269671
+    second: Demon_Combat_80
+  - first:
+      213: 8134595019754360554
+    second: Demon_Combat_81
+  - first:
+      213: -9097569579230838972
+    second: Demon_Combat_82
+  - first:
+      213: -8303834652702352736
+    second: Demon_Combat_83
+  - first:
+      213: -6486806843327218479
+    second: Demon_Combat_84
+  - first:
+      213: -6536746900106823210
+    second: Demon_Combat_85
+  - first:
+      213: -6479701082980168745
+    second: Demon_Combat_86
+  - first:
+      213: -7667720679542892695
+    second: Demon_Combat_87
+  - first:
+      213: -2488341464279689893
+    second: Demon_Combat_88
+  - first:
+      213: -616188336326481464
+    second: Demon_Combat_89
+  - first:
+      213: 3706327945698472505
+    second: Demon_Combat_90
+  - first:
+      213: -7441634572109348895
+    second: Demon_Combat_91
+  - first:
+      213: -472542880728651603
+    second: Demon_Combat_92
+  - first:
+      213: 5285937112906154529
+    second: Demon_Combat_93
+  - first:
+      213: -5316631301567253116
+    second: Demon_Combat_94
+  - first:
+      213: 8028809356194630675
+    second: Demon_Combat_95
+  - first:
+      213: 4522450683267498064
+    second: Demon_Combat_96
+  - first:
+      213: -7051519123547051003
+    second: Demon_Combat_97
+  - first:
+      213: 5681264909883707109
+    second: Demon_Combat_98
+  - first:
+      213: -5000443340371850023
+    second: Demon_Combat_99
+  - first:
+      213: -5174222832158012472
+    second: Demon_Combat_100
+  - first:
+      213: 5032027875649239968
+    second: Demon_Combat_101
+  - first:
+      213: 3465618630659477027
+    second: Demon_Combat_102
+  - first:
+      213: 487968756219844476
+    second: Demon_Combat_103
+  - first:
+      213: 3659730408047010863
+    second: Demon_Combat_104
+  - first:
+      213: 3515453518534591193
+    second: Demon_Combat_105
+  - first:
+      213: 54613126976116372
+    second: Demon_Combat_106
+  - first:
+      213: 8755578132177948959
+    second: Demon_Combat_107
+  - first:
+      213: -8729238449757488281
+    second: Demon_Combat_108
+  - first:
+      213: -3311674016481821435
+    second: Demon_Combat_109
+  - first:
+      213: -2440062862331480699
+    second: Demon_Combat_110
+  - first:
+      213: -7668839540959942367
+    second: Demon_Combat_111
+  - first:
+      213: -6879052681813371954
+    second: Demon_Combat_112
+  - first:
+      213: -4532480058462697864
+    second: Demon_Combat_113
+  - first:
+      213: 505482295283362773
+    second: Demon_Combat_114
+  - first:
+      213: -8799752558862101503
+    second: Demon_Combat_115
+  - first:
+      213: 7902627942400119676
+    second: Demon_Combat_116
+  - first:
+      213: 3527868475306431815
+    second: Demon_Combat_117
+  - first:
+      213: 2782991920924814523
+    second: Demon_Combat_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 285
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Combat_00_Windup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 490
+        height: 538
+      alignment: 9
+      pivot: {x: 0.4877551, y: 0.013011153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caedeaffbe3c9960f8776e3a4544d97e
+      internalID: 1268341056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_01_Contact
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 486
+        width: 575
+        height: 538
+      alignment: 9
+      pivot: {x: 0.34086958, y: 0.013011153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -287.5, y: 269}
+        - {x: 287.5, y: 269}
+        - {x: 287.5, y: -11}
+        - {x: 187.5, y: -11}
+        - {x: 187.5, y: -269}
+        - {x: -287.5, y: -269}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdbf4e6c0da106ac88efc635a5bd7b3
+      internalID: -35997260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_02_Recovery
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 486
+        width: 486
+        height: 538
+      alignment: 9
+      pivot: {x: 0.4238683, y: 0.0111524165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -173, y: 269}
+        - {x: 243, y: 269}
+        - {x: 243, y: -269}
+        - {x: -243, y: -269}
+        - {x: -243, y: -31}
+        - {x: -173, y: -31}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a650cc822b4ae038795becac6f1e8cc1
+      internalID: 2035359021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_03_Hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5659574, y: 0.07613169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05057645a554ab2a79e376d1c9babf64
+      internalID: -183573683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_04_Kneel
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 474
+        height: 486
+      alignment: 9
+      pivot: {x: 0.57172996, y: 0.10699589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c69078220690985188872c725b6b17e
+      internalID: -1653279502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_05_Down
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 592
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4831081, y: 0.08436214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff317b46109d8796a56aa7da35c7dbe
+      internalID: -220072930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8cac0599367c69d6c9c5d7f7c293293c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Combat_00_Windup: 1268341056
+      Combat_01_Contact: -35997260
+      Combat_02_Recovery: 2035359021
+      Combat_03_Hurt: -183573683
+      Combat_04_Kneel: -1653279502
+      Combat_05_Down: -220072930
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

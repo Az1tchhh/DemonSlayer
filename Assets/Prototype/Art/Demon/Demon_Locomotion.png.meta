@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 73288dee41e425406a2b663c9f718bac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -380596931331665277
+    second: Demon_Locomotion_0
+  - first:
+      213: -1824095326542110765
+    second: Demon_Locomotion_1
+  - first:
+      213: -2194287612193773382
+    second: Demon_Locomotion_2
+  - first:
+      213: 5191679067054047744
+    second: Demon_Locomotion_3
+  - first:
+      213: -4936048992370631645
+    second: Demon_Locomotion_4
+  - first:
+      213: -6767554652303475147
+    second: Demon_Locomotion_5
+  - first:
+      213: 8459866432963158800
+    second: Demon_Locomotion_6
+  - first:
+      213: -1422957795120873121
+    second: Demon_Locomotion_7
+  - first:
+      213: 8173537195466300612
+    second: Demon_Locomotion_8
+  - first:
+      213: -6751634441266795300
+    second: Demon_Locomotion_9
+  - first:
+      213: 8815800264635796607
+    second: Demon_Locomotion_10
+  - first:
+      213: -9065991110499547276
+    second: Demon_Locomotion_11
+  - first:
+      213: 5771318769727545172
+    second: Demon_Locomotion_12
+  - first:
+      213: 3569516602599980540
+    second: Demon_Locomotion_13
+  - first:
+      213: -2548807424049985536
+    second: Demon_Locomotion_14
+  - first:
+      213: -3206990200400965068
+    second: Demon_Locomotion_15
+  - first:
+      213: -792492672439310236
+    second: Demon_Locomotion_16
+  - first:
+      213: -3283749389116116280
+    second: Demon_Locomotion_17
+  - first:
+      213: 7377456039484114033
+    second: Demon_Locomotion_18
+  - first:
+      213: 5817474880956692487
+    second: Demon_Locomotion_19
+  - first:
+      213: 8208666867258771074
+    second: Demon_Locomotion_20
+  - first:
+      213: -5287024187136539448
+    second: Demon_Locomotion_21
+  - first:
+      213: -6395392605525018499
+    second: Demon_Locomotion_22
+  - first:
+      213: -8575107998778870791
+    second: Demon_Locomotion_23
+  - first:
+      213: -7175214799560577482
+    second: Demon_Locomotion_24
+  - first:
+      213: -4126930917194422023
+    second: Demon_Locomotion_25
+  - first:
+      213: -8972838055749513926
+    second: Demon_Locomotion_26
+  - first:
+      213: -22906577547245757
+    second: Demon_Locomotion_27
+  - first:
+      213: -8075912836717332164
+    second: Demon_Locomotion_28
+  - first:
+      213: -733764166386575161
+    second: Demon_Locomotion_29
+  - first:
+      213: 281695401575884204
+    second: Demon_Locomotion_30
+  - first:
+      213: 478453327643129524
+    second: Demon_Locomotion_31
+  - first:
+      213: -6162999942013927776
+    second: Demon_Locomotion_32
+  - first:
+      213: 3357508187613092941
+    second: Demon_Locomotion_33
+  - first:
+      213: -4245498734174035265
+    second: Demon_Locomotion_34
+  - first:
+      213: -3453422100000527721
+    second: Demon_Locomotion_35
+  - first:
+      213: -5076249792972771894
+    second: Demon_Locomotion_36
+  - first:
+      213: -8254722274559737054
+    second: Demon_Locomotion_37
+  - first:
+      213: -3543674113369718664
+    second: Demon_Locomotion_38
+  - first:
+      213: -5879895423047558587
+    second: Demon_Locomotion_39
+  - first:
+      213: -2280480160221739002
+    second: Demon_Locomotion_40
+  - first:
+      213: -8641896197847910722
+    second: Demon_Locomotion_41
+  - first:
+      213: 3646740775205957837
+    second: Demon_Locomotion_42
+  - first:
+      213: 756565922998804942
+    second: Demon_Locomotion_43
+  - first:
+      213: 4423057462315002568
+    second: Demon_Locomotion_44
+  - first:
+      213: -5276210696622291842
+    second: Demon_Locomotion_45
+  - first:
+      213: 5085117548973169992
+    second: Demon_Locomotion_46
+  - first:
+      213: 5764815577301777338
+    second: Demon_Locomotion_47
+  - first:
+      213: 836307418128449585
+    second: Demon_Locomotion_48
+  - first:
+      213: -1243990609102598126
+    second: Demon_Locomotion_49
+  - first:
+      213: -4823935005198593880
+    second: Demon_Locomotion_50
+  - first:
+      213: 6010662973220685790
+    second: Demon_Locomotion_51
+  - first:
+      213: -163835570815164246
+    second: Demon_Locomotion_52
+  - first:
+      213: 4745947345730281650
+    second: Demon_Locomotion_53
+  - first:
+      213: -1126982039185929375
+    second: Demon_Locomotion_54
+  - first:
+      213: -256682242804884168
+    second: Demon_Locomotion_55
+  - first:
+      213: 2330756927180097777
+    second: Demon_Locomotion_56
+  - first:
+      213: 4151274938654777384
+    second: Demon_Locomotion_57
+  - first:
+      213: 5209724424351469625
+    second: Demon_Locomotion_58
+  - first:
+      213: 7992581656168452273
+    second: Demon_Locomotion_59
+  - first:
+      213: -9028854197142160293
+    second: Demon_Locomotion_60
+  - first:
+      213: -3868686193745006331
+    second: Demon_Locomotion_61
+  - first:
+      213: 5143550511949766476
+    second: Demon_Locomotion_62
+  - first:
+      213: -6060093882339918561
+    second: Demon_Locomotion_63
+  - first:
+      213: 1978165112503615041
+    second: Demon_Locomotion_64
+  - first:
+      213: 5468387986040414838
+    second: Demon_Locomotion_65
+  - first:
+      213: -8797606957599570958
+    second: Demon_Locomotion_66
+  - first:
+      213: -6681308681663047122
+    second: Demon_Locomotion_67
+  - first:
+      213: -4449614179178488431
+    second: Demon_Locomotion_68
+  - first:
+      213: 5112152932078355332
+    second: Demon_Locomotion_69
+  - first:
+      213: 5761142154478959517
+    second: Demon_Locomotion_70
+  - first:
+      213: -9074383834428680548
+    second: Demon_Locomotion_71
+  - first:
+      213: 3744432144781265263
+    second: Demon_Locomotion_72
+  - first:
+      213: -555187260382824224
+    second: Demon_Locomotion_73
+  - first:
+      213: 1907521180030600815
+    second: Demon_Locomotion_74
+  - first:
+      213: 8830486431129998986
+    second: Demon_Locomotion_75
+  - first:
+      213: -7306140950429032893
+    second: Demon_Locomotion_76
+  - first:
+      213: -356664382567934025
+    second: Demon_Locomotion_77
+  - first:
+      213: 8794830315660624688
+    second: Demon_Locomotion_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 285
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Loco_00_Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.48632812, y: 0.01171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091bc98af34e767058b19d51ab5e16b3
+      internalID: -1676283436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loco_01_Idle
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.42578125, y: 0.009765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773cc367397924e4da8aa939113c2e7a
+      internalID: 932711168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loco_02_Walk
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.017578125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb8557379c71fd648c6a6b2338d12a9
+      internalID: 1326716429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loco_03_Walk
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.4296875, y: 0.041015625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51240b100739347e099c13f954a754b0
+      internalID: 901358492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loco_04_Walk
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.47851562, y: 0.048828125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d136688dbbe5437c83db226e1a1c924
+      internalID: 1054585189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loco_05_Walk
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.44140625, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b5dcbf9ff5987a7b9440b936cfae93
+      internalID: 1901361015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: db387bc0a89d55fc098e12737fff8c71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Loco_00_Idle: -1676283436
+      Loco_01_Idle: 932711168
+      Loco_02_Walk: 1326716429
+      Loco_03_Walk: 901358492
+      Loco_04_Walk: 1054585189
+      Loco_05_Walk: 1901361015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

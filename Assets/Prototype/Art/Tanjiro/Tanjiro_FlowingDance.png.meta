@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: e75c839a1f74ca0798c8a1fcdb4cd287
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1659858232070776376
+    second: Tanjiro_FlowingDance_0
+  - first:
+      213: -8260653987681755154
+    second: Tanjiro_FlowingDance_1
+  - first:
+      213: 5273130480984304803
+    second: Tanjiro_FlowingDance_2
+  - first:
+      213: 5509969300990932280
+    second: Tanjiro_FlowingDance_3
+  - first:
+      213: 542883803735493392
+    second: Tanjiro_FlowingDance_4
+  - first:
+      213: -2859773625679212426
+    second: Tanjiro_FlowingDance_5
+  - first:
+      213: -4661839850966279277
+    second: Tanjiro_FlowingDance_6
+  - first:
+      213: -1987568377938700113
+    second: Tanjiro_FlowingDance_7
+  - first:
+      213: -7863791781206957110
+    second: Tanjiro_FlowingDance_8
+  - first:
+      213: -1329680824509972260
+    second: Tanjiro_FlowingDance_9
+  - first:
+      213: 6164365134560891223
+    second: Tanjiro_FlowingDance_10
+  - first:
+      213: -3289940651099972968
+    second: Tanjiro_FlowingDance_11
+  - first:
+      213: -1097104887217062495
+    second: Tanjiro_FlowingDance_12
+  - first:
+      213: 4471367215227119035
+    second: Tanjiro_FlowingDance_13
+  - first:
+      213: -7513588997129690352
+    second: Tanjiro_FlowingDance_14
+  - first:
+      213: 9175612091162345887
+    second: Tanjiro_FlowingDance_15
+  - first:
+      213: -9130437134027812390
+    second: Tanjiro_FlowingDance_16
+  - first:
+      213: 6861846139614617983
+    second: Tanjiro_FlowingDance_17
+  - first:
+      213: 5297362477468753274
+    second: Tanjiro_FlowingDance_18
+  - first:
+      213: -6779466747062489842
+    second: Tanjiro_FlowingDance_19
+  - first:
+      213: -611072322259316079
+    second: Tanjiro_FlowingDance_20
+  - first:
+      213: -4002486259052678752
+    second: Tanjiro_FlowingDance_21
+  - first:
+      213: -120211484582304723
+    second: Tanjiro_FlowingDance_22
+  - first:
+      213: 2170470048986145869
+    second: Tanjiro_FlowingDance_23
+  - first:
+      213: -7587838144076498464
+    second: Tanjiro_FlowingDance_24
+  - first:
+      213: -5637153496678973863
+    second: Tanjiro_FlowingDance_25
+  - first:
+      213: -1608156889720230150
+    second: Tanjiro_FlowingDance_26
+  - first:
+      213: 8670447904528575826
+    second: Tanjiro_FlowingDance_27
+  - first:
+      213: 4343562375920609813
+    second: Tanjiro_FlowingDance_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 325
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanceBody_00_Windup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 629
+        width: 625
+        height: 625
+      alignment: 9
+      pivot: {x: 0.544, y: 0.072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e900b13bc537b7e826dd78a0cf1493
+      internalID: 347451786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceBody_01_LowCut
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 629
+        width: 629
+        height: 625
+      alignment: 9
+      pivot: {x: 0.44515103, y: 0.064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79daa62fdf8dd7c8b84c7ba1f05bed9
+      internalID: 282110863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceBody_02_Rise
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 629
+      alignment: 9
+      pivot: {x: 0.47857141, y: 0.104928456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0031afde71ad276c9a7760f80a2dda84
+      internalID: 970797242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceBody_03_Recover
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 554
+        height: 629
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.104928456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaa2f57d6460052b92e10999cb1f1fb
+      internalID: 705310149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d58c992c0d418970085f36753bba7541
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DanceBody_00_Windup: 347451786
+      DanceBody_01_LowCut: 282110863
+      DanceBody_02_Rise: 970797242
+      DanceBody_03_Recover: 705310149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

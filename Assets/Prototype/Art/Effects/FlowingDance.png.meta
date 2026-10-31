@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: ab304f9f27a4e1b21a4cc29d601e880f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 432979147716344359
+    second: FlowingDance_0
+  - first:
+      213: -8076413723022552222
+    second: FlowingDance_1
+  - first:
+      213: -2561582745814229636
+    second: FlowingDance_2
+  - first:
+      213: -4861330365320209482
+    second: FlowingDance_3
+  - first:
+      213: -3588656058405995209
+    second: FlowingDance_4
+  - first:
+      213: 9129419940499130168
+    second: FlowingDance_5
+  - first:
+      213: 7486213709891872763
+    second: FlowingDance_6
+  - first:
+      213: 1726218640825258784
+    second: FlowingDance_7
+  - first:
+      213: 1583162522984995402
+    second: FlowingDance_8
+  - first:
+      213: -2829386208047670693
+    second: FlowingDance_9
+  - first:
+      213: 1027378210222876522
+    second: FlowingDance_10
+  - first:
+      213: -1334086845873674869
+    second: FlowingDance_11
+  - first:
+      213: -4184748298729851855
+    second: FlowingDance_12
+  - first:
+      213: 3995125397885524364
+    second: FlowingDance_13
+  - first:
+      213: 8704163134907905867
+    second: FlowingDance_14
+  - first:
+      213: -4437281496288225679
+    second: FlowingDance_15
+  - first:
+      213: 8190155637557225867
+    second: FlowingDance_16
+  - first:
+      213: -8865553966133281273
+    second: FlowingDance_17
+  - first:
+      213: 4797405449136411807
+    second: FlowingDance_18
+  - first:
+      213: 1445728600108141907
+    second: FlowingDance_19
+  - first:
+      213: 7173285576514820661
+    second: FlowingDance_20
+  - first:
+      213: 7581870387354305836
+    second: FlowingDance_21
+  - first:
+      213: -8187541266164279607
+    second: FlowingDance_22
+  - first:
+      213: 472682676347619459
+    second: FlowingDance_23
+  - first:
+      213: 121919819597529944
+    second: FlowingDance_24
+  - first:
+      213: 8526445178376568365
+    second: FlowingDance_25
+  - first:
+      213: -2469264067453247110
+    second: FlowingDance_26
+  - first:
+      213: 3671969653041089304
+    second: FlowingDance_27
+  - first:
+      213: 1836241126207686393
+    second: FlowingDance_28
+  - first:
+      213: 2966571290551431939
+    second: FlowingDance_29
+  - first:
+      213: 1788220019597545252
+    second: FlowingDance_30
+  - first:
+      213: -1991392635908932545
+    second: FlowingDance_31
+  - first:
+      213: -6338301960424381389
+    second: FlowingDance_32
+  - first:
+      213: -1439687169161046535
+    second: FlowingDance_33
+  - first:
+      213: -6477782823911974072
+    second: FlowingDance_34
+  - first:
+      213: -8181980665751351991
+    second: FlowingDance_35
+  - first:
+      213: -4142648659496546865
+    second: FlowingDance_36
+  - first:
+      213: -4315082557858388000
+    second: FlowingDance_37
+  - first:
+      213: 568313772484026157
+    second: FlowingDance_38
+  - first:
+      213: 4980403080009530751
+    second: FlowingDance_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 295.66666
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanceFX_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 887
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3939ebe9640ef30cf863b74af62041ad
+      internalID: -590478555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceFX_01
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 444
+        width: 887
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03c50b82bce5f82895ee2fa0a33988
+      internalID: 1765926801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceFX_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 887
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6b19d5bdf560a2b481c02ac9a3913
+      internalID: 1948836740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanceFX_03
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 887
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f072bd3349cfcdcb9ab1410989d256c3
+      internalID: -1265702590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 47931e7a10e4db52aae9851756786cea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DanceFX_00: -590478555
+      DanceFX_01: 1765926801
+      DanceFX_02: 1948836740
+      DanceFX_03: -1265702590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
