@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 3cdabfa0e7c533397add4ca111d16b86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4296799231467787129
+    second: Tanjiro_WaterSlash_0
+  - first:
+      213: 3924564714458761605
+    second: Tanjiro_WaterSlash_1
+  - first:
+      213: 7557880088384871633
+    second: Tanjiro_WaterSlash_2
+  - first:
+      213: -7261927243426242167
+    second: Tanjiro_WaterSlash_3
+  - first:
+      213: -5080858209369193511
+    second: Tanjiro_WaterSlash_4
+  - first:
+      213: 986586602869502941
+    second: Tanjiro_WaterSlash_5
+  - first:
+      213: -6184136854254670890
+    second: Tanjiro_WaterSlash_6
+  - first:
+      213: 7644037573905645728
+    second: Tanjiro_WaterSlash_7
+  - first:
+      213: 8871914029107807491
+    second: Tanjiro_WaterSlash_8
+  - first:
+      213: 5683456664537000336
+    second: Tanjiro_WaterSlash_9
+  - first:
+      213: -187121579128592277
+    second: Tanjiro_WaterSlash_10
+  - first:
+      213: 1478866796409591318
+    second: Tanjiro_WaterSlash_11
+  - first:
+      213: -7135706998767653986
+    second: Tanjiro_WaterSlash_12
+  - first:
+      213: -9103573826133083944
+    second: Tanjiro_WaterSlash_13
+  - first:
+      213: 4151772730190162044
+    second: Tanjiro_WaterSlash_14
+  - first:
+      213: 5540888415471027969
+    second: Tanjiro_WaterSlash_15
+  - first:
+      213: 1762523109111438126
+    second: Tanjiro_WaterSlash_16
+  - first:
+      213: 7966778686653818001
+    second: Tanjiro_WaterSlash_17
+  - first:
+      213: -8009889777067824482
+    second: Tanjiro_WaterSlash_18
+  - first:
+      213: -9193922268313694553
+    second: Tanjiro_WaterSlash_19
+  - first:
+      213: 5064125192162976194
+    second: Tanjiro_WaterSlash_20
+  - first:
+      213: 3629388949897982066
+    second: Tanjiro_WaterSlash_21
+  - first:
+      213: 1308305217588605164
+    second: Tanjiro_WaterSlash_22
+  - first:
+      213: 8420347588855852921
+    second: Tanjiro_WaterSlash_23
+  - first:
+      213: -106690032903471165
+    second: Tanjiro_WaterSlash_24
+  - first:
+      213: 6992683414691326137
+    second: Tanjiro_WaterSlash_25
+  - first:
+      213: -7383143660163321284
+    second: Tanjiro_WaterSlash_26
+  - first:
+      213: 336122075559439247
+    second: Tanjiro_WaterSlash_27
+  - first:
+      213: 2373311175706909020
+    second: Tanjiro_WaterSlash_28
+  - first:
+      213: 4870625573685654868
+    second: Tanjiro_WaterSlash_29
+  - first:
+      213: -5176894630290447656
+    second: Tanjiro_WaterSlash_30
+  - first:
+      213: -2520994031044249373
+    second: Tanjiro_WaterSlash_31
+  - first:
+      213: -4828269014417443911
+    second: Tanjiro_WaterSlash_32
+  - first:
+      213: 1103287262380155092
+    second: Tanjiro_WaterSlash_33
+  - first:
+      213: 9085611949366680074
+    second: Tanjiro_WaterSlash_34
+  - first:
+      213: 4867320880985181620
+    second: Tanjiro_WaterSlash_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 325
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterBody_00_Windup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 629
+        width: 625
+        height: 625
+      alignment: 9
+      pivot: {x: 0.5648, y: 0.0304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ecb7684e2c96d588643fb1181805c4
+      internalID: 1339117730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterBody_01_Contact
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 629
+        width: 629
+        height: 625
+      alignment: 9
+      pivot: {x: 0.41971382, y: 0.0304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed55304185bce670bb80a2686bdcebe4
+      internalID: 215790383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterBody_02_Follow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 715
+        height: 629
+      alignment: 9
+      pivot: {x: 0.45034966, y: 0.07154213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -357.5, y: 314.5}
+        - {x: 337.5, y: 314.5}
+        - {x: 337.5, y: -104.5}
+        - {x: 357.5, y: -104.5}
+        - {x: 357.5, y: -122.5}
+        - {x: 322.5, y: -122.5}
+        - {x: 322.5, y: -314.5}
+        - {x: -357.5, y: -314.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ccd104a4bf8513a8447e7edf6fc8f5
+      internalID: 1084765943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b08c00421214cf3df8fa401f3d487311
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WaterBody_00_Windup: 1339117730
+      WaterBody_01_Contact: 215790383
+      WaterBody_02_Follow: 1084765943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

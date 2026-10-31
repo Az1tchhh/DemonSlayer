@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 29f08bace3b93ba319e143394d595b27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4803169997654136345
+    second: Tanjiro_Air_0
+  - first:
+      213: 4284902674512524285
+    second: Tanjiro_Air_1
+  - first:
+      213: 1174178637170380941
+    second: Tanjiro_Air_2
+  - first:
+      213: 3166120221165572515
+    second: Tanjiro_Air_3
+  - first:
+      213: -1662930830663368202
+    second: Tanjiro_Air_4
+  - first:
+      213: 6869456481215230013
+    second: Tanjiro_Air_5
+  - first:
+      213: 902819211943771027
+    second: Tanjiro_Air_6
+  - first:
+      213: 9017369424985918257
+    second: Tanjiro_Air_7
+  - first:
+      213: -1388569074921245557
+    second: Tanjiro_Air_8
+  - first:
+      213: 7335931726227265338
+    second: Tanjiro_Air_9
+  - first:
+      213: 6921070282050070929
+    second: Tanjiro_Air_10
+  - first:
+      213: 4328770708423548522
+    second: Tanjiro_Air_11
+  - first:
+      213: 5320630403475228716
+    second: Tanjiro_Air_12
+  - first:
+      213: -7207855662124830244
+    second: Tanjiro_Air_13
+  - first:
+      213: -3349917297751458569
+    second: Tanjiro_Air_14
+  - first:
+      213: -7498010579098098136
+    second: Tanjiro_Air_15
+  - first:
+      213: -30151965228733517
+    second: Tanjiro_Air_16
+  - first:
+      213: -4011818423159547542
+    second: Tanjiro_Air_17
+  - first:
+      213: 399349791637766723
+    second: Tanjiro_Air_18
+  - first:
+      213: -6430316736165738451
+    second: Tanjiro_Air_19
+  - first:
+      213: 4926477226427852967
+    second: Tanjiro_Air_20
+  - first:
+      213: -2257000839561834123
+    second: Tanjiro_Air_21
+  - first:
+      213: -49626277913455820
+    second: Tanjiro_Air_22
+  - first:
+      213: -7019506229951478716
+    second: Tanjiro_Air_23
+  - first:
+      213: -2582122994149343628
+    second: Tanjiro_Air_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Air_00_Rise
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 634
+        width: 570
+        height: 620
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.0032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb5a6e4f40d2c691b178876b87ab480
+      internalID: 1465207171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air_01_Apex
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 614
+        width: 554
+        height: 640
+      alignment: 9
+      pivot: {x: 0.38267148, y: 0.003125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba90e418c07024948a9500b0f40725e
+      internalID: 1552295323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air_02_Fall
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 520
+        height: 634
+      alignment: 9
+      pivot: {x: 0.44230768, y: 0.04416404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef2205fdb7a3326580ce7efe7b53a32
+      internalID: 1749971883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air_03_Land
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 554
+        height: 604
+      alignment: 9
+      pivot: {x: 0.37184116, y: 0.04139073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e52a37cdfc7bc8398bebb03b0e3af90
+      internalID: 1135847507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de341cbfb81e92c58a3d07328880df8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Air_00_Rise: 1465207171
+      Air_01_Apex: 1552295323
+      Air_02_Fall: 1749971883
+      Air_03_Land: 1135847507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

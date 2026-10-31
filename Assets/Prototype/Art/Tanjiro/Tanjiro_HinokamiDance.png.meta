@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: a9b7f7b19b6a7611a87f778935f9ab87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5286310512291286358
+    second: Tanjiro_HinokamiDance_0
+  - first:
+      213: -4089496034710761210
+    second: Tanjiro_HinokamiDance_1
+  - first:
+      213: 5441632325163704737
+    second: Tanjiro_HinokamiDance_2
+  - first:
+      213: -63622172847566359
+    second: Tanjiro_HinokamiDance_3
+  - first:
+      213: 2449055551865218001
+    second: Tanjiro_HinokamiDance_4
+  - first:
+      213: 2388650138397399442
+    second: Tanjiro_HinokamiDance_5
+  - first:
+      213: 8884433289226310537
+    second: Tanjiro_HinokamiDance_6
+  - first:
+      213: 8559984939832075924
+    second: Tanjiro_HinokamiDance_7
+  - first:
+      213: 3475075876653721504
+    second: Tanjiro_HinokamiDance_8
+  - first:
+      213: -1227055118282055340
+    second: Tanjiro_HinokamiDance_9
+  - first:
+      213: -5407613265958522704
+    second: Tanjiro_HinokamiDance_10
+  - first:
+      213: 694648371699199721
+    second: Tanjiro_HinokamiDance_11
+  - first:
+      213: 8907331567790479514
+    second: Tanjiro_HinokamiDance_12
+  - first:
+      213: 1365230512987961302
+    second: Tanjiro_HinokamiDance_13
+  - first:
+      213: -477227846218293142
+    second: Tanjiro_HinokamiDance_14
+  - first:
+      213: 8175813569794806578
+    second: Tanjiro_HinokamiDance_15
+  - first:
+      213: -2254550387910014188
+    second: Tanjiro_HinokamiDance_16
+  - first:
+      213: -6706746377620454108
+    second: Tanjiro_HinokamiDance_17
+  - first:
+      213: -7301794492743666987
+    second: Tanjiro_HinokamiDance_18
+  - first:
+      213: -1805248240792649715
+    second: Tanjiro_HinokamiDance_19
+  - first:
+      213: 6269683213412849292
+    second: Tanjiro_HinokamiDance_20
+  - first:
+      213: -465731145677765784
+    second: Tanjiro_HinokamiDance_21
+  - first:
+      213: 7678459563435018191
+    second: Tanjiro_HinokamiDance_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HinokamiBody_00_Windup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 610
+        height: 640
+      alignment: 9
+      pivot: {x: 0.5491803, y: 0.015625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88413c6810bd04cf96d12691e48744f
+      internalID: 1087463688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinokamiBody_01_Contact
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 614
+        width: 644
+        height: 640
+      alignment: 9
+      pivot: {x: 0.34937888, y: 0.015625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7f4d219c800fbb680a9f32498415be
+      internalID: -337520372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinokamiBody_02_Follow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 755
+        height: 614
+      alignment: 9
+      pivot: {x: 0.410596, y: 0.039087947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -377.5, y: 307}
+        - {x: 317.5, y: 307}
+        - {x: 317.5, y: -113}
+        - {x: 377.5, y: -130}
+        - {x: 377.5, y: -154}
+        - {x: 317.5, y: -141}
+        - {x: 317.5, y: -307}
+        - {x: -377.5, y: -307}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a211f8e527ce205648d811b8ad1656ae
+      internalID: 86627678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinokamiBody_03_Recover
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 554
+        height: 614
+      alignment: 9
+      pivot: {x: 0.4061372, y: 0.039087947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb354ccb7f365eb89afe29b69734887
+      internalID: 853443884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1816835c71f029bce977d7eca1283ec0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HinokamiBody_00_Windup: 1087463688
+      HinokamiBody_01_Contact: -337520372
+      HinokamiBody_02_Follow: 86627678
+      HinokamiBody_03_Recover: 853443884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

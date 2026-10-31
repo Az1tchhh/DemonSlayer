@@ -34,3 +34,9 @@
 Thumbs.db
 
 # Keep Assets/, Packages/, ProjectSettings/, and asset .meta files tracked.
+/Tools/
+
+# Local planning and Unity assistant preferences
+*.md
+/ProjectSettings/AI.Assistant/
+/prompts/

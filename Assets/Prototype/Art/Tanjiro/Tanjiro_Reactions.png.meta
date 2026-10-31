@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 3adfb50e25d2fe67ba65ee0801e93ea8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3564900505359396362
+    second: Tanjiro_Reactions_0
+  - first:
+      213: -8966802058617822035
+    second: Tanjiro_Reactions_1
+  - first:
+      213: 4683327379714350963
+    second: Tanjiro_Reactions_2
+  - first:
+      213: -6745003953010325655
+    second: Tanjiro_Reactions_3
+  - first:
+      213: 2188638411835755772
+    second: Tanjiro_Reactions_4
+  - first:
+      213: -7393588248740765309
+    second: Tanjiro_Reactions_5
+  - first:
+      213: 243272365314534871
+    second: Tanjiro_Reactions_6
+  - first:
+      213: 1810318158284737038
+    second: Tanjiro_Reactions_7
+  - first:
+      213: 5810755537985014266
+    second: Tanjiro_Reactions_8
+  - first:
+      213: 6956967147891492067
+    second: Tanjiro_Reactions_9
+  - first:
+      213: -2414333335994655726
+    second: Tanjiro_Reactions_10
+  - first:
+      213: 2323996917842777365
+    second: Tanjiro_Reactions_11
+  - first:
+      213: -4637256892319062566
+    second: Tanjiro_Reactions_12
+  - first:
+      213: -8250112393406968633
+    second: Tanjiro_Reactions_13
+  - first:
+      213: -7846218710317839457
+    second: Tanjiro_Reactions_14
+  - first:
+      213: 2417505050880305261
+    second: Tanjiro_Reactions_15
+  - first:
+      213: -5551949395711697618
+    second: Tanjiro_Reactions_16
+  - first:
+      213: -7280856321564256087
+    second: Tanjiro_Reactions_17
+  - first:
+      213: 8748606984793903915
+    second: Tanjiro_Reactions_18
+  - first:
+      213: -4246837222894639740
+    second: Tanjiro_Reactions_19
+  - first:
+      213: 5141183544911789998
+    second: Tanjiro_Reactions_20
+  - first:
+      213: -8471149997207633537
+    second: Tanjiro_Reactions_21
+  - first:
+      213: 2382835621918045875
+    second: Tanjiro_Reactions_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 330
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reaction_00_Hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 568
+        height: 620
+      alignment: 9
+      pivot: {x: 0.46302816, y: 0.038709678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a762693f63bffbc99f6e9c89820566
+      internalID: 1780156466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaction_01_Recover
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 404
+        width: 482
+        height: 620
+      alignment: 9
+      pivot: {x: 0.3360996, y: 0.038709678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960e303c45a1925a4bb3bfb5bbcc80cb
+      internalID: 603672926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaction_02_Stagger
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 404
+        width: 486
+        height: 620
+      alignment: 9
+      pivot: {x: 0.33127573, y: 0.038709678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf374d06f0e32cd8892966f0bdae1f5f
+      internalID: -441831661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaction_03_Kneel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 505
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5247525, y: 0.12376238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534197633b667daa3a3de1199e453cbe
+      internalID: 1012166284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaction_04_Fall
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 515
+        height: 404
+      alignment: 9
+      pivot: {x: 0.4854369, y: 0.12623763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d25e519e33614038f76f3680b03629
+      internalID: -1864072178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reaction_05_Down
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 516
+        height: 404
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.11881188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b972dea9fe9eeb10a0f43bc54995814
+      internalID: -1932958399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c180c80e92314aab832b53d87f80d58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reaction_00_Hurt: 1780156466
+      Reaction_01_Recover: 603672926
+      Reaction_02_Stagger: -441831661
+      Reaction_03_Kneel: 1012166284
+      Reaction_04_Fall: -1864072178
+      Reaction_05_Down: -1932958399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
