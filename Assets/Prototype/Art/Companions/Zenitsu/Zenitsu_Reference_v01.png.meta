@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 8b942fa8b7b6dd8adb03f014b133a6f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4018168936493105991
+    second: Zenitsu_Reference_v01_0
+  - first:
+      213: -9076971603314286253
+    second: Zenitsu_Reference_v01_1
+  - first:
+      213: -8870236115160825484
+    second: Zenitsu_Reference_v01_2
+  - first:
+      213: 3126927985876907440
+    second: Zenitsu_Reference_v01_3
+  - first:
+      213: 86240905212509427
+    second: Zenitsu_Reference_v01_4
+  - first:
+      213: -8074210498402861001
+    second: Zenitsu_Reference_v01_5
+  - first:
+      213: -4996657847077162507
+    second: Zenitsu_Reference_v01_6
+  - first:
+      213: 437333663253642640
+    second: Zenitsu_Reference_v01_7
+  - first:
+      213: 7657499169782201476
+    second: Zenitsu_Reference_v01_8
+  - first:
+      213: 5358544391009063787
+    second: Zenitsu_Reference_v01_9
+  - first:
+      213: -7243164577736632831
+    second: Zenitsu_Reference_v01_10
+  - first:
+      213: 5126165619245179331
+    second: Zenitsu_Reference_v01_11
+  - first:
+      213: -8851569859928113436
+    second: Zenitsu_Reference_v01_12
+  - first:
+      213: -290526685462594631
+    second: Zenitsu_Reference_v01_13
+  - first:
+      213: 4271633844628711386
+    second: Zenitsu_Reference_v01_14
+  - first:
+      213: 4210214115061062463
+    second: Zenitsu_Reference_v01_15
+  - first:
+      213: 4338267091988911181
+    second: Zenitsu_Reference_v01_16
+  - first:
+      213: -1089904643174330301
+    second: Zenitsu_Reference_v01_17
+  - first:
+      213: -8415484843419634842
+    second: Zenitsu_Reference_v01_18
+  - first:
+      213: 2567313570514087169
+    second: Zenitsu_Reference_v01_19
+  - first:
+      213: 8179983012153155018
+    second: Zenitsu_Reference_v01_20
+  - first:
+      213: -2574063025894532944
+    second: Zenitsu_Reference_v01_21
+  - first:
+      213: 7744163395349546496
+    second: Zenitsu_Reference_v01_22
+  - first:
+      213: -3080648703194753370
+    second: Zenitsu_Reference_v01_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.4473684, y: 0.02711324}
+  spritePixelsToUnits: 687.0588
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 982
+        height: 1220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb1d434a89c38c0800000000000000
+      internalID: -4018168936493105991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_1
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1229
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351e42c2b6e180280800000000000000
+      internalID: -9076971603314286253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1098
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4718ff1ff3796e480800000000000000
+      internalID: -8870236115160825484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 730
+        width: 270
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5bb6c9f64156b20800000000000000
+      internalID: 3126927985876907440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 980
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcbc4875a3623100800000000000000
+      internalID: 86240905212509427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 779
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730c7f8a454a2ff80800000000000000
+      internalID: -8074210498402861001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 938
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f13cc8592e48aab0800000000000000
+      internalID: -4996657847077162507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 843
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dbd8e46a8b11600800000000000000
+      internalID: 437333663253642640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c77ba7ce6e44a60800000000000000
+      internalID: 7657499169782201476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 641
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63d14b9bbf5d5a40800000000000000
+      internalID: 5358544391009063787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106d056413c1b7b90800000000000000
+      internalID: -7243164577736632831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 377
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1edea987cc32740800000000000000
+      internalID: 5126165619245179331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 640
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee3e6a2c18e82580800000000000000
+      internalID: -8851569859928113436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 124
+        width: 226
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbfa33d487d7fbf0800000000000000
+      internalID: -290526685462594631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 505
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad761af7954e74b30800000000000000
+      internalID: 4271633844628711386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 481
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bdc845e6fad6a30800000000000000
+      internalID: 4210214115061062463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_16
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 320
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4414ce5fee943c30800000000000000
+      internalID: 4338267091988911181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 306
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3409b886081efd0f0800000000000000
+      internalID: -1089904643174330301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 337
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663f94f3f11363b80800000000000000
+      internalID: -8415484843419634842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_19
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 441
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d2885171ee0a320800000000000000
+      internalID: 2567313570514087169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_20
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 352
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd5e1cc533258170800000000000000
+      internalID: 8179983012153155018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_21
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 497
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8d610e057174cd0800000000000000
+      internalID: -2574063025894532944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_22
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 112
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0068466e39bc87b60800000000000000
+      internalID: 7744163395349546496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zenitsu_Reference_v01_23
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 20
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a61f4093565f35d0800000000000000
+      internalID: -3080648703194753370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Zenitsu_Reference_v01_0: -4018168936493105991
+      Zenitsu_Reference_v01_1: -9076971603314286253
+      Zenitsu_Reference_v01_10: -7243164577736632831
+      Zenitsu_Reference_v01_11: 5126165619245179331
+      Zenitsu_Reference_v01_12: -8851569859928113436
+      Zenitsu_Reference_v01_13: -290526685462594631
+      Zenitsu_Reference_v01_14: 4271633844628711386
+      Zenitsu_Reference_v01_15: 4210214115061062463
+      Zenitsu_Reference_v01_16: 4338267091988911181
+      Zenitsu_Reference_v01_17: -1089904643174330301
+      Zenitsu_Reference_v01_18: -8415484843419634842
+      Zenitsu_Reference_v01_19: 2567313570514087169
+      Zenitsu_Reference_v01_2: -8870236115160825484
+      Zenitsu_Reference_v01_20: 8179983012153155018
+      Zenitsu_Reference_v01_21: -2574063025894532944
+      Zenitsu_Reference_v01_22: 7744163395349546496
+      Zenitsu_Reference_v01_23: -3080648703194753370
+      Zenitsu_Reference_v01_3: 3126927985876907440
+      Zenitsu_Reference_v01_4: 86240905212509427
+      Zenitsu_Reference_v01_5: -8074210498402861001
+      Zenitsu_Reference_v01_6: -4996657847077162507
+      Zenitsu_Reference_v01_7: 437333663253642640
+      Zenitsu_Reference_v01_8: 7657499169782201476
+      Zenitsu_Reference_v01_9: 5358544391009063787
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
