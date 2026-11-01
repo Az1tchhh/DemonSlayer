@@ -2484,6 +2484,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1792430546572344107, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
   m_PrefabInstance: {fileID: 1040141924}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1040141928 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3434521680395862388, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
+  m_PrefabInstance: {fileID: 1040141924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1129532133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,6 +3040,7 @@ MonoBehaviour:
   player: {fileID: 1369269684}
   animator: {fileID: 1040141927}
   visual: {fileID: 1040141925}
+  waterEffects: {fileID: 1040141928}
   gameplayCamera: {fileID: 840266466}
   entranceFlash: {fileID: 228920607}
   entranceCore: {fileID: 551241819}

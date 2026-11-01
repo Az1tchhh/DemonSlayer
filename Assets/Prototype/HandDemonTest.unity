@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e32567c846b0bf38392c3208c35912c2, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeCompanionSelection
   player: {fileID: 1369269684}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -349,6 +349,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Giyu_Visual
       objectReference: {fileID: 0}
+    - target: {fileID: 3434521680395862388, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
+      propertyPath: m_Size.x
+      value: 3.5446155
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434521680395862388, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
+      propertyPath: m_Size.y
+      value: 3.5446155
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434521680395862388, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4960205788549331885, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -407,6 +419,11 @@ Transform:
 --- !u!95 &186780712 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1792430546572344107, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
+  m_PrefabInstance: {fileID: 186780709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &186780713 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3434521680395862388, guid: 76c796e24b1e8466084dc43a862e14c6, type: 3}
   m_PrefabInstance: {fileID: 186780709}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &222283301
@@ -986,14 +1003,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef51d5fa95a778aa7bfecd401b5fa4fe, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeNezukoAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   animator: {fileID: 1891490429}
   visual: {fileID: 1891490427}
-  damage: 40
+  damage: 20
   knockbackSpeed: 10
   knockbackDuration: 0.25
   cooldown: 8
@@ -2558,7 +2575,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce4e83dbb2d8c6426a95b64e04fc530e, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeZenitsuAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}
@@ -3077,11 +3094,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad65341f3ec7a96b48f97a7064b28db7, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeGiyuProtection
   player: {fileID: 1369269684}
   animator: {fileID: 186780712}
   visual: {fileID: 186780710}
+  waterEffects: {fileID: 186780713}
   gameplayCamera: {fileID: 840266466}
   entranceFlash: {fileID: 228920607}
   entranceCore: {fileID: 551241819}
@@ -3140,7 +3158,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 425d8f2143c53094d983aa7d16fd207f, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeInosukeAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}

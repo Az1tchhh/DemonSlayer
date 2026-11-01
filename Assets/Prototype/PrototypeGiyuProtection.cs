@@ -8,6 +8,7 @@ namespace DemonSlayer.Prototype
         [SerializeField] private PrototypePlayer player;
         [SerializeField] private Animator animator;
         [SerializeField] private SpriteRenderer visual;
+        [SerializeField] private SpriteRenderer waterEffects;
         [SerializeField] private Camera gameplayCamera;
         [SerializeField] private LineRenderer entranceFlash;
         [SerializeField] private LineRenderer entranceCore;
@@ -41,9 +42,9 @@ namespace DemonSlayer.Prototype
         private void Awake()
         {
             if (!animator && visual) animator = visual.GetComponent<Animator>();
-            if (!player || !animator || !visual || !animator.runtimeAnimatorController || !gameplayCamera || !entranceFlash || !entranceCore)
+            if (!player || !animator || !visual || !waterEffects || !animator.runtimeAnimatorController || !gameplayCamera || !entranceFlash || !entranceCore)
             {
-                Debug.LogError("Giyu protection requires Tanjiro, an animated visual, gameplay camera and entrance streak renderers.", this);
+                Debug.LogError("Giyu protection requires Tanjiro, an animated visual, water effects, gameplay camera and entrance streak renderers.", this);
                 enabled = false;
                 return;
             }
@@ -53,6 +54,7 @@ namespace DemonSlayer.Prototype
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
             animator.speed = 0;
             visual.enabled = false;
+            waterEffects.enabled = false;
             entranceFlash.enabled = entranceCore.enabled = false;
         }
         private void OnEnable()
@@ -114,6 +116,10 @@ namespace DemonSlayer.Prototype
             visual.color = new Color(1, 1, 1, Mathf.Clamp01((Duration - elapsed) / .12f));
             animator.Play(ProtectionState, 0, Mathf.Clamp01(elapsed / Duration));
             animator.Update(0);
+            // The same clip samples the separate water layer, so pauses and pose changes stay aligned.
+            waterEffects.flipX = visual.flipX;
+            waterEffects.color = visual.color;
+            waterEffects.enabled = visual.enabled && waterEffects.sprite != null && elapsed < RetreatTime;
         }
         private void SampleEntrance(float elapsed, Vector2 position)
         {
@@ -158,6 +164,7 @@ namespace DemonSlayer.Prototype
             active = counterPending = false;
             if (player) player.CancelRescueRetreat();
             if (visual) { visual.enabled = false; visual.color = Color.white; }
+            if (waterEffects) { waterEffects.enabled = false; waterEffects.sprite = null; waterEffects.color = Color.white; }
             if (entranceFlash) entranceFlash.enabled = false;
             if (entranceCore) entranceCore.enabled = false;
         }
