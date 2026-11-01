@@ -9,6 +9,7 @@ namespace DemonSlayer.Prototype
     public sealed class PrototypePlayer : MonoBehaviour
     {
         [SerializeField] private InputActionAsset inputTemplate;
+        [SerializeField] private PrototypeGiyuProtection giyu;
         [SerializeField] private float speed = 6f;
         [SerializeField] private float jumpSpeed = 10f;
         [SerializeField] private float kataCooldown = 3f;
@@ -30,6 +31,12 @@ namespace DemonSlayer.Prototype
         [SerializeField, Min(.01f)] private float clearBlueSkyCooldown = 10f;
         [SerializeField] private float clearBlueSkyHop = 7f;
         [SerializeField] private int clearBlueSkyDamage = 55;
+        [SerializeField, Tooltip("Dash is parked for now. Enable to restore its input and HUD.")] private bool dashEnabled = false;
+        [SerializeField, Min(.01f)] private float dashDuration = .2f;
+        [SerializeField, Min(.01f)] private float dashCooldown = .9f;
+        [SerializeField, Min(0)] private float dashSpeed = 18f;
+        [SerializeField, Range(0, 1)] private float blockDamageReduction = .8f;
+        [SerializeField, Range(0, 1)] private float blockMoveMultiplier = .3f;
         public const float SkyLaunch = .14f;
         public const float SkyContactStart = .28f;
         public const float SkyContactEnd = .62f;
@@ -59,7 +66,7 @@ namespace DemonSlayer.Prototype
         [SerializeField] private SpriteRenderer attackIndicator;
         [SerializeField] private Transform sword;
         private InputActionAsset controls;
-        private InputAction move, jump, attack, kata, wheel, dance, hinokami, sky;
+        private InputAction move, jump, attack, kata, wheel, dance, hinokami, sky, dash, block;
         private Rigidbody2D body;
         private BoxCollider2D shape;
         private CombatHealth health;
@@ -74,6 +81,17 @@ namespace DemonSlayer.Prototype
         private bool hinokamiDanceActive;
         private bool clearBlueSkyActive, skyLaunchPending;
         private bool jumpQueued;
+        private bool dashActive, blockHeld;
+        private float rescueDirection, rescueStart, rescueEnd, rescueSpeed;
+        private bool rescueNeedsGround;
+        private readonly RaycastHit2D[] rescueHits = new RaycastHit2D[32];
+        public bool IsBeingRescued => giyu && giyu.IsActive;
+        private float dashStarted, dashEnds, nextDash, dashDirection;
+        public bool DashEnabled => dashEnabled;
+        public bool IsDashing => dashEnabled && dashActive && Time.time < dashEnds && !health.IsDead && isActiveAndEnabled;
+        public bool IsBlocking => blockHeld && Grounded && Mathf.Abs(body.linearVelocity.y) < .5f && !IsDashing && !IsBeingRescued && !IsAttacking && !health.IsDead && isActiveAndEnabled;
+        public float DashRemaining => Mathf.Max(0, nextDash - Time.time);
+        public float DashProgress => Mathf.Clamp01((Time.time - dashStarted) / dashDuration);
         public bool Grounded { get; private set; }
         public float KataRemaining => Mathf.Max(0, nextKata - Time.time);
         public float WheelRemaining => Mathf.Max(0, nextWheel - Time.time);
@@ -108,6 +126,8 @@ namespace DemonSlayer.Prototype
             move = map.FindAction("Move", true);
             jump = map.FindAction("Jump", true);
             attack = map.FindAction("Attack", true);
+            dash = map.FindAction("Sprint", true);
+            block = map.FindAction("Block", true);
             attack.AddBinding("<Keyboard>/j");
             kata = map.AddAction("PrototypeWaterSlash", InputActionType.Button, "<Keyboard>/q");
             wheel = map.AddAction("PrototypeWaterWheel", InputActionType.Button, "<Keyboard>/e");
@@ -118,13 +138,13 @@ namespace DemonSlayer.Prototype
         private void OnEnable()
         {
             if (controls != null) controls.FindActionMap("Player").Enable();
-            if (health != null) health.Died += CancelAttack;
+            if (health != null) health.Died += CancelActions;
         }
         private void OnDisable()
         {
             if (controls != null) controls.Disable();
-            if (health != null) health.Died -= CancelAttack;
-            CancelAttack();
+            if (health != null) health.Died -= CancelActions;
+            CancelActions();
             jumpQueued = false;
         }
         private void OnDestroy() { if (controls != null) Destroy(controls); }
@@ -132,6 +152,10 @@ namespace DemonSlayer.Prototype
         private void Update()
         {
             if (health.IsDead) { attackIndicator.enabled = false; return; }
+            if (IsBeingRescued) { jumpQueued = false; return; }
+            if (dashActive && (!dashEnabled || Time.time >= dashEnds)) dashActive = false;
+            // Defence input is handled before pending attack hits, so a dash cancels them.
+            if (dashEnabled && dash.WasPressedThisFrame()) TryDash();
             // One clock drives both the contact hit and the sampled animation pose.
             float impactDelay = hinokamiDanceActive ? hinokamiDanceDuration * HinokamiContact : waterSlashActive ? waterSlashDuration * WaterSlashContact : basicSlashDuration * BasicSlashContact;
             if (impactPending && Time.time >= attackStarted + impactDelay)
@@ -149,9 +173,10 @@ namespace DemonSlayer.Prototype
             if (IsAttacking && Time.time >= nextAttack)
                 basicSlashActive = waterSlashActive = waterWheelActive = wheelLaunchPending = flowingDanceActive = hinokamiDanceActive = clearBlueSkyActive = skyLaunchPending = false;
             float x = move.ReadValue<Vector2>().x;
-            if (!IsAttacking && Mathf.Abs(x) > .1f) facing = Mathf.Sign(x);
+            if (!IsAttacking && !IsDashing && !IsBlocking && Mathf.Abs(x) > .1f) facing = Mathf.Sign(x);
+            blockHeld = block.IsPressed();
             sword.localPosition = new Vector3(facing * .65f, .1f, 0);
-            if (jump.WasPressedThisFrame() && !waterWheelActive && !flowingDanceActive && !hinokamiDanceActive && !clearBlueSkyActive) jumpQueued = true;
+            if (jump.WasPressedThisFrame() && !IsDashing && !IsBlocking && !waterWheelActive && !flowingDanceActive && !hinokamiDanceActive && !clearBlueSkyActive) jumpQueued = true;
             if (sky.WasPressedThisFrame()) TryClearBlueSky();
             else if (hinokami.WasPressedThisFrame()) TryHinokamiDance();
             else if (dance.WasPressedThisFrame()) TryFlowingDance();
@@ -173,7 +198,16 @@ namespace DemonSlayer.Prototype
                 return;
             }
             var velocity = body.linearVelocity;
-            if (clearBlueSkyActive)
+            if (IsBeingRescued)
+            {
+                velocity.x = RescueVelocity();
+            }
+            else if (IsDashing)
+            {
+                // Keep gravity and colliders active; immunity applies only to incoming attacks.
+                velocity.x = dashDirection * dashSpeed;
+            }
+            else if (clearBlueSkyActive)
             {
                 velocity.x = 0;
                 float progress = ClearBlueSkyProgress;
@@ -206,7 +240,7 @@ namespace DemonSlayer.Prototype
             }
             else
             {
-                velocity.x = move.ReadValue<Vector2>().x * speed;
+                velocity.x = move.ReadValue<Vector2>().x * speed * (IsBlocking ? blockMoveMultiplier : 1f);
                 if (jumpQueued && Grounded) velocity.y = jumpSpeed;
             }
             jumpQueued = false;
@@ -216,7 +250,7 @@ namespace DemonSlayer.Prototype
 
         public bool TryAttack(bool water)
         {
-            if (!isActiveAndEnabled || health.IsDead || Time.time < nextAttack || (water && Time.time < nextKata)) return false;
+            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || (water && Time.time < nextKata)) return false;
             nextAttack = Time.time + (water ? waterSlashDuration : basicSlashDuration);
             if (water) nextKata = Time.time + kataCooldown;
             attackStarted = Time.time;
@@ -229,7 +263,7 @@ namespace DemonSlayer.Prototype
 
         public bool TryWaterWheel()
         {
-            if (!isActiveAndEnabled || health.IsDead || Time.time < nextAttack || Time.time < nextWheel) return false;
+            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextWheel) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + waterWheelDuration;
             nextWheel = Time.time + waterWheelCooldown;
@@ -242,7 +276,7 @@ namespace DemonSlayer.Prototype
 
         public bool TryFlowingDance()
         {
-            if (!isActiveAndEnabled || health.IsDead || Time.time < nextAttack || Time.time < nextDance ||
+            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextDance ||
                 !Grounded || Mathf.Abs(body.linearVelocity.y) > .5f) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + flowingDanceDuration;
@@ -268,7 +302,7 @@ namespace DemonSlayer.Prototype
 
         public bool TryHinokamiDance()
         {
-            if (!isActiveAndEnabled || health.IsDead || Time.time < nextAttack || Time.time < nextHinokami ||
+            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextHinokami ||
                 !Grounded || Mathf.Abs(body.linearVelocity.y) > .5f) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + hinokamiDanceDuration;
@@ -295,7 +329,7 @@ namespace DemonSlayer.Prototype
 
         public bool TryClearBlueSky()
         {
-            if (!isActiveAndEnabled || health.IsDead || Time.time < nextAttack || Time.time < nextSky) return false;
+            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextSky) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + clearBlueSkyDuration;
             nextSky = Time.time + clearBlueSkyCooldown;
@@ -352,9 +386,91 @@ namespace DemonSlayer.Prototype
             if (attackIndicator != null) attackIndicator.enabled = false;
         }
 
-        public void ReceiveHit(int damage)
+        public bool TryDash()
         {
-            if (Time.time < invulnerableUntil || health.IsDead) return;
+            if (!dashEnabled || !isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || Time.time < nextDash || Time.timeScale <= 0) return false;
+            float input = move.ReadValue<Vector2>().x;
+            dashDirection = Mathf.Abs(input) > .1f ? Mathf.Sign(input) : facing;
+            CancelAttack();
+            nextAttack = Time.time;
+            facing = dashDirection;
+            dashStarted = Time.time;
+            dashEnds = Time.time + dashDuration;
+            nextDash = Time.time + Mathf.Max(dashCooldown, dashDuration);
+            dashActive = true;
+            jumpQueued = false;
+            return true;
+        }
+
+        private void CancelActions()
+        {
+            if (giyu) giyu.CancelProtection();
+            CancelRescueRetreat();
+            CancelAttack();
+            if (dashActive && body != null) body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+            dashActive = blockHeld = false;
+            jumpQueued = false;
+        }
+
+        public void BeginRescueRetreat(float direction, float distance, float delay, float duration)
+        {
+            CancelAttack();
+            dashActive = blockHeld = jumpQueued = false;
+            rescueDirection = Mathf.Sign(direction);
+            rescueStart = Time.time + delay;
+            rescueEnd = rescueStart + duration;
+            rescueSpeed = distance / Mathf.Max(.01f, duration);
+            rescueNeedsGround = Grounded;
+            body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+        }
+
+        public void CancelRescueRetreat()
+        {
+            if (rescueEnd > 0 && body) body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+            rescueStart = rescueEnd = rescueSpeed = 0;
+            jumpQueued = false;
+        }
+
+        private float RescueVelocity()
+        {
+            if (Time.time < rescueStart || Time.time >= rescueEnd) return 0;
+            float step = rescueSpeed * Mathf.Min(Time.fixedDeltaTime, rescueEnd - Time.time);
+            Vector2 direction = Vector2.right * rescueDirection;
+            int count = body.Cast(direction, new ContactFilter2D { useTriggers = false }, rescueHits, step + .04f);
+            for (int i = 0; i < count; i++)
+            {
+                var hit = rescueHits[i];
+                if (Vector2.Dot(hit.normal, direction) >= -.1f) continue;
+                // Also stop before another demon even though normal player/enemy collision is ignored.
+                step = Mathf.Min(step, Mathf.Max(0, hit.distance - .03f));
+            }
+            if (rescueNeedsGround && step > 0)
+            {
+                Vector2 ahead = new Vector2(body.position.x + rescueDirection * (shape.bounds.extents.x + step + .05f), shape.bounds.min.y + .15f);
+                count = Physics2D.Raycast(ahead, Vector2.down,
+                    new ContactFilter2D { useLayerMask = true, layerMask = 1, useTriggers = false }, rescueHits, .5f);
+                bool supported = false;
+                for (int i = 0; i < count; i++) if (rescueHits[i].normal.y > .6f) supported = true;
+                if (!supported) { rescueEnd = Time.time; return 0; }
+            }
+            return rescueDirection * step / Time.fixedDeltaTime;
+        }
+
+        public void ReceiveHit(int damage) => ApplyHit(damage, false);
+
+        public void ReceiveMeleeHit(int damage, Vector2 sourcePosition)
+        {
+            if (!isActiveAndEnabled || damage <= 0 || health.IsDead || IsDashing || Time.time < invulnerableUntil) return;
+            if (IsBeingRescued) return; // Protection rejects every melee source, from either side.
+            bool blocked = IsBlocking && (sourcePosition.x - body.position.x) * facing >= 0;
+            if (!blocked && giyu && giyu.TryProtect(sourcePosition)) return;
+            ApplyHit(damage, blocked);
+        }
+
+        private void ApplyHit(int damage, bool blocked)
+        {
+            if (damage <= 0 || IsDashing || Time.time < invulnerableUntil || health.IsDead) return;
+            if (blocked) damage = Mathf.Max(1, Mathf.CeilToInt(damage * (1 - blockDamageReduction)));
             health.Damage(damage);
             invulnerableUntil = Time.time + .6f;
         }
@@ -364,8 +480,8 @@ namespace DemonSlayer.Prototype
             body.position = position;
             body.linearVelocity = Vector2.zero;
             health.Restore();
-            CancelAttack();
-            nextAttack = nextKata = nextWheel = nextDance = nextHinokami = nextSky = 0;
+            CancelActions();
+            nextAttack = nextKata = nextWheel = nextDance = nextHinokami = nextSky = nextDash = 0;
             invulnerableUntil = Time.time + .6f;
             jumpQueued = false;
             facing = 1;

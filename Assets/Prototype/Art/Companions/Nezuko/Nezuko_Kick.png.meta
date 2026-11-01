@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 5f2181cee65344f5992414a95f3f27a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9193866499574017492
+    second: Nezuko_Kick_0
+  - first:
+      213: -1763459092040225829
+    second: Nezuko_Kick_1
+  - first:
+      213: 2382308977560785913
+    second: Nezuko_Kick_2
+  - first:
+      213: 8392953023000595378
+    second: Nezuko_Kick_3
+  - first:
+      213: -3621944567423733751
+    second: Nezuko_Kick_4
+  - first:
+      213: 2953145036922346571
+    second: Nezuko_Kick_5
+  - first:
+      213: 7822903262555168286
+    second: Nezuko_Kick_6
+  - first:
+      213: -8568689124128416883
+    second: Nezuko_Kick_7
+  - first:
+      213: 4826623144711745011
+    second: Nezuko_Kick_8
+  - first:
+      213: -1937756303591214003
+    second: Nezuko_Kick_9
+  - first:
+      213: 2139525553499277327
+    second: Nezuko_Kick_10
+  - first:
+      213: -3974671892569552931
+    second: Nezuko_Kick_11
+  - first:
+      213: 1940882778517276950
+    second: Nezuko_Kick_12
+  - first:
+      213: 3177907586765673069
+    second: Nezuko_Kick_13
+  - first:
+      213: 4167440674364778347
+    second: Nezuko_Kick_14
+  - first:
+      213: -2644745003877014685
+    second: Nezuko_Kick_15
+  - first:
+      213: -6250040682084470820
+    second: Nezuko_Kick_16
+  - first:
+      213: 2520839587120501304
+    second: Nezuko_Kick_17
+  - first:
+      213: 2690648072836091220
+    second: Nezuko_Kick_18
+  - first:
+      213: -4089133511546599617
+    second: Nezuko_Kick_19
+  - first:
+      213: -3822683628305163764
+    second: Nezuko_Kick_20
+  - first:
+      213: -3335161900265094169
+    second: Nezuko_Kick_21
+  - first:
+      213: -2443316565082629982
+    second: Nezuko_Kick_22
+  - first:
+      213: -1633411767294634269
+    second: Nezuko_Kick_23
+  - first:
+      213: -6557497683889377280
+    second: Nezuko_Kick_24
+  - first:
+      213: -1391107121122693130
+    second: Nezuko_Kick_25
+  - first:
+      213: -3015549312277082658
+    second: Nezuko_Kick_26
+  - first:
+      213: -6007495124668283722
+    second: Nezuko_Kick_27
+  - first:
+      213: -7835736541089008212
+    second: Nezuko_Kick_28
+  - first:
+      213: 1582770737221244126
+    second: Nezuko_Kick_29
+  - first:
+      213: -4860016610817481967
+    second: Nezuko_Kick_30
+  - first:
+      213: -7666041131337145179
+    second: Nezuko_Kick_31
+  - first:
+      213: 8058347714475358009
+    second: Nezuko_Kick_32
+  - first:
+      213: 4129349089110672480
+    second: Nezuko_Kick_33
+  - first:
+      213: -5565065704068059171
+    second: Nezuko_Kick_34
+  - first:
+      213: -5019731116695096871
+    second: Nezuko_Kick_35
+  - first:
+      213: 7800228168310074687
+    second: Nezuko_Kick_36
+  - first:
+      213: -1446032962443178587
+    second: Nezuko_Kick_37
+  - first:
+      213: 5192711428198035641
+    second: Nezuko_Kick_38
+  - first:
+      213: -7220896798961193316
+    second: Nezuko_Kick_39
+  - first:
+      213: -6034765341433564917
+    second: Nezuko_Kick_40
+  - first:
+      213: 3506630130111386097
+    second: Nezuko_Kick_41
+  - first:
+      213: -5978481383134606401
+    second: Nezuko_Kick_42
+  - first:
+      213: 1525892275257454347
+    second: Nezuko_Kick_43
+  - first:
+      213: -2959490886083564594
+    second: Nezuko_Kick_44
+  - first:
+      213: 5904929003984903436
+    second: Nezuko_Kick_45
+  - first:
+      213: 314208958149664251
+    second: Nezuko_Kick_46
+  - first:
+      213: -5634635467184856389
+    second: Nezuko_Kick_47
+  - first:
+      213: -54528460291912987
+    second: Nezuko_Kick_48
+  - first:
+      213: 6550031545687303939
+    second: Nezuko_Kick_49
+  - first:
+      213: 6561559346676124559
+    second: Nezuko_Kick_50
+  - first:
+      213: 8689671717730914824
+    second: Nezuko_Kick_51
+  - first:
+      213: 4108644700406469084
+    second: Nezuko_Kick_52
+  - first:
+      213: 8898367228866128009
+    second: Nezuko_Kick_53
+  - first:
+      213: 8274178575575722309
+    second: Nezuko_Kick_54
+  - first:
+      213: 9181536295519516014
+    second: Nezuko_Kick_55
+  - first:
+      213: -4089285809918419135
+    second: Nezuko_Kick_56
+  - first:
+      213: 6110651059597011013
+    second: Nezuko_Kick_57
+  - first:
+      213: 7117357294355965941
+    second: Nezuko_Kick_58
+  - first:
+      213: 5366691027940190152
+    second: Nezuko_Kick_59
+  - first:
+      213: -441332055067322815
+    second: Nezuko_Kick_60
+  - first:
+      213: -2971968214289954315
+    second: Nezuko_Kick_61
+  - first:
+      213: -6227627044305438154
+    second: Nezuko_Kick_62
+  - first:
+      213: 7627228007362629875
+    second: Nezuko_Kick_63
+  - first:
+      213: -6811401169577972030
+    second: Nezuko_Kick_64
+  - first:
+      213: 9189191936111790642
+    second: Nezuko_Kick_65
+  - first:
+      213: 7425143021832857365
+    second: Nezuko_Kick_66
+  - first:
+      213: 8194614975637552851
+    second: Nezuko_Kick_67
+  - first:
+      213: -7329432696386758606
+    second: Nezuko_Kick_68
+  - first:
+      213: -3037297166372008373
+    second: Nezuko_Kick_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 255.48387
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assist_00_Ready
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 627
+        height: 420
+      alignment: 9
+      pivot: {x: 0.5582137, y: 0.014285714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3eca3742d658e559ffcf316b914620
+      internalID: 1703740525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_01_Windup
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 834
+        width: 627
+        height: 420
+      alignment: 9
+      pivot: {x: 0.5550239, y: 0.016666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f3c61eea5a5367830ca79de11725b
+      internalID: 2124673259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_02_Chamber
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 627
+        height: 420
+      alignment: 9
+      pivot: {x: 0.5980861, y: 0.021428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f072cb75fbb1d0881385af71ffd777
+      internalID: -980376477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_03_Kick
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 414
+        width: 627
+        height: 420
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85916a3fc71e79327b24a7818e387608
+      internalID: 837470415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_04_Retract
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 627
+        height: 414
+      alignment: 9
+      pivot: {x: 0.5948963, y: 0.033816423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56628c34163b8cfd59d3d65135489a9a
+      internalID: 1268686466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_05_Recover
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 627
+        height: 414
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.033816423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04605badb999913e89866d4d271808a
+      internalID: 665020847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5ae96d3ae346aa465bcdb6cb52e80317
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assist_00_Ready: 1703740525
+      Assist_01_Windup: 2124673259
+      Assist_02_Chamber: -980376477
+      Assist_03_Kick: 837470415
+      Assist_04_Retract: 1268686466
+      Assist_05_Recover: 665020847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

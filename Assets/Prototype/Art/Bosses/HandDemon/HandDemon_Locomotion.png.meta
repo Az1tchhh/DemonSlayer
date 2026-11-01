@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 6a532fb316f0a2a96856cc6c5dd60a05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5218209320789194755
+    second: HandDemon_Locomotion_0
+  - first:
+      213: 8953327435051745093
+    second: HandDemon_Locomotion_1
+  - first:
+      213: -8481506247961563422
+    second: HandDemon_Locomotion_2
+  - first:
+      213: 5916152396347734157
+    second: HandDemon_Locomotion_3
+  - first:
+      213: -6355098548052023662
+    second: HandDemon_Locomotion_4
+  - first:
+      213: -1200288900824914850
+    second: HandDemon_Locomotion_5
+  - first:
+      213: -9135586348365986264
+    second: HandDemon_Locomotion_6
+  - first:
+      213: 1187094466327658009
+    second: HandDemon_Locomotion_7
+  - first:
+      213: 7183178648893186423
+    second: HandDemon_Locomotion_8
+  - first:
+      213: -4356630420409181025
+    second: HandDemon_Locomotion_9
+  - first:
+      213: -3943811667916540731
+    second: HandDemon_Locomotion_10
+  - first:
+      213: 7425957153027119479
+    second: HandDemon_Locomotion_11
+  - first:
+      213: -7960908664244253503
+    second: HandDemon_Locomotion_12
+  - first:
+      213: -8553923881771029050
+    second: HandDemon_Locomotion_13
+  - first:
+      213: 8836453795266739976
+    second: HandDemon_Locomotion_14
+  - first:
+      213: -7364469088173974384
+    second: HandDemon_Locomotion_15
+  - first:
+      213: 7146412656327338818
+    second: HandDemon_Locomotion_16
+  - first:
+      213: 5638972123298943379
+    second: HandDemon_Locomotion_17
+  - first:
+      213: -4943275089097611534
+    second: HandDemon_Locomotion_18
+  - first:
+      213: 8146435951743577842
+    second: HandDemon_Locomotion_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 530
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.068359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2af6f72f565615e82a1ea9e13ccf5f
+      internalID: 1090643292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_01
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 512
+        width: 510
+        height: 512
+      alignment: 9
+      pivot: {x: 0.50392157, y: 0.068359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45f487fab454bd809064da1764b3290
+      internalID: 1266527644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_00
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 512
+        width: 496
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5221774, y: 0.0546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960dd9d69883e6fab2ae8f40a7aa1b5
+      internalID: 710178251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 530
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.099609375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbd2ca68394f8081a0be2ab3a727843
+      internalID: -75113912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_02
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 510
+        height: 512
+      alignment: 9
+      pivot: {x: 0.50392157, y: 0.099609375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65697e84bf0dbd2b9b7ddbd72dd5a007
+      internalID: 93669546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_03
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 496
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5221774, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02b2405d47b1860b46a8bfe525c49d
+      internalID: -846940980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ba1fd165a65fd7088bea97acf3a04a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Idle_00: 1090643292
+      Idle_01: 1266527644
+      Walk_00: 710178251
+      Walk_01: -75113912
+      Walk_02: 93669546
+      Walk_03: -846940980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

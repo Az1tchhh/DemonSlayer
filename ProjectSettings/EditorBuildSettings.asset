@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Prototype/HandDemonTest.unity
+    guid: f4df38a88b5e0274ea5e7dca55cf4ad2
+  - enabled: 1
     path: Assets/Prototype/PlayableTest.unity
     guid: 78fa11942d55a130aa3065630851e65d
   m_configObjects:

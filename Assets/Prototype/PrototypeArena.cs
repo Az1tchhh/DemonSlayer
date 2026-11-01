@@ -12,6 +12,10 @@ namespace DemonSlayer.Prototype
         [SerializeField] private SpriteRenderer checkpointVisual;
         [SerializeField] private TMP_Text status;
         [SerializeField] private TMP_Text message;
+        [SerializeField] private string enemyName = "DEMON";
+        [SerializeField] private PrototypeZenitsuAssist zenitsu;
+        [SerializeField] private PrototypeCompanionSelection companions;
+        [SerializeField] private PrototypeGiyuProtection giyu;
         private InputAction retry;
         private Vector2 spawn, enemySpawn;
         public bool CheckpointActive { get; private set; }
@@ -39,10 +43,18 @@ namespace DemonSlayer.Prototype
             string dance = player.DanceRemaining > 0 ? $"{player.DanceRemaining:0.0}s" : "READY";
             string fire = player.HinokamiRemaining > 0 ? $"{player.HinokamiRemaining:0.0}s" : "READY";
             string sky = player.SkyRemaining > 0 ? $"{player.SkyRemaining:0.0}s" : "READY";
-            status.text = $"TANJIRO  {player.Health.Current}/{player.Health.Maximum}     DEMON  {demon.Health.Current}/{demon.Health.Maximum}     CHECKPOINT  {(CheckpointActive ? "ACTIVE" : "Ahead")}\nQ  SURFACE SLASH  {kata}     E  WATER WHEEL  {wheel}     F  FLOWING DANCE  {dance}\nG  HINOKAMI: DANCE  {fire}     H  CLEAR BLUE SKY  {sky}";
+            string dash = player.IsDashing ? "ACTIVE" : player.DashRemaining > 0 ? $"{player.DashRemaining:0.0}s" : "READY";
+            string dashHint = player.DashEnabled ? $"     SHIFT DASH  {dash}" : "";
+            string block = player.IsBlocking ? "GUARDING" : "HOLD";
+            string assist = !zenitsu ? "" : $"     L ZENITSU  {(zenitsu.IsActive ? "ACTIVE" : zenitsu.Remaining > 0 ? $"{zenitsu.Remaining:0.0}s" : "READY")}";
+            if (companions)
+                assist = $"     L {companions.DisplayName}  {(companions.HasActiveAssist ? "ACTIVE" : companions.Remaining > 0 ? $"{companions.Remaining:0.0}s" : "READY")}";
+            string selectionHint = companions ? $"     [1/2/3 {(companions.SelectionLocked ? "LOCKED" : "SELECT")}]" : "";
+            string protection = !giyu || !giyu.isActiveAndEnabled ? "" : $"   GIYU AUTO {(giyu.IsActive ? "SHIELD" : giyu.Remaining > 0 ? $"{giyu.Remaining:0.0}s" : "READY")}";
+            status.text = $"TANJIRO  {player.Health.Current}/{player.Health.Maximum}     {enemyName}  {demon.Health.Current}/{demon.Health.Maximum}     CHECKPOINT  {(CheckpointActive ? "ACTIVE" : "Ahead")}{selectionHint}\nQ SURFACE SLASH {kata}   E WATER WHEEL {wheel}   F FLOWING DANCE {dance}{protection}\nG  HINOKAMI: DANCE  {fire}     H  CLEAR BLUE SKY  {sky}{dashHint}     K BLOCK  {block}{assist}";
             message.text = player.Health.IsDead ? "YOU FELL\nPress R to retry from your checkpoint" :
-                demon.Health.IsDead ? "DEMON DEFEATED\nPress R to replay the encounter" :
-                CheckpointActive ? "Checkpoint active — defeat the demon ahead" : "Cross the low step and reach the green checkpoint";
+                demon.Health.IsDead ? $"{enemyName} DEFEATED\nPress R to replay the encounter" :
+                CheckpointActive ? $"Checkpoint active — defeat {enemyName.ToLowerInvariant()} ahead" : "Cross the low step and reach the green checkpoint";
         }
         public void Retry()
         {

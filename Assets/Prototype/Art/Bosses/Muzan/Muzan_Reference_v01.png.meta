@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f13065f3c621e9608e005eac7681ea6
+guid: 2f4eec75907bc4c41bf24215c2456da5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5616089006014143282
-    second: Giyu_Reference_v01_0
+      213: 8648534633873664995
+    second: Muzan_Reference_v01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,8 +50,8 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 9
-  spritePivot: {x: 0.5661882, y: 0.02631579}
-  spritePixelsToUnits: 611.2821
+  spritePivot: {x: 0.53919935, y: 0.05335366}
+  spritePixelsToUnits: 555.12195
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Giyu_Reference_v01_0
+      name: Muzan_Reference_v01_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 29
-        width: 1209
-        height: 1200
+        x: 65
+        y: 0
+        width: 1099
+        height: 1294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23b1376123b50fd40800000000000000
-      internalID: 5616089006014143282
+      spriteID: 3ebe3b77d64c50870800000000000000
+      internalID: 8648534633873664995
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Giyu_Reference_v01_0: 5616089006014143282
+      Muzan_Reference_v01_0: 8648534633873664995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

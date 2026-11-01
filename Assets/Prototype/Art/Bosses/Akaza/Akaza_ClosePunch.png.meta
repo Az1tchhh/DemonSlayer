@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 6048a1fedc92e336ca4fb528e53a3b0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6708522872310872126
+    second: Akaza_ClosePunch_0
+  - first:
+      213: 5911052892334709664
+    second: Akaza_ClosePunch_1
+  - first:
+      213: 4086268279071791616
+    second: Akaza_ClosePunch_2
+  - first:
+      213: -156935346762107348
+    second: Akaza_ClosePunch_3
+  - first:
+      213: -5311311220063817421
+    second: Akaza_ClosePunch_4
+  - first:
+      213: 4618317952274218341
+    second: Akaza_ClosePunch_5
+  - first:
+      213: 5782312551404047474
+    second: Akaza_ClosePunch_6
+  - first:
+      213: 2738112718373751386
+    second: Akaza_ClosePunch_7
+  - first:
+      213: -742091246070492965
+    second: Akaza_ClosePunch_8
+  - first:
+      213: -9041031602486614238
+    second: Akaza_ClosePunch_9
+  - first:
+      213: 6651736110299046946
+    second: Akaza_ClosePunch_10
+  - first:
+      213: 9150277714605634376
+    second: Akaza_ClosePunch_11
+  - first:
+      213: 7072273169327042426
+    second: Akaza_ClosePunch_12
+  - first:
+      213: -2220166978469857613
+    second: Akaza_ClosePunch_13
+  - first:
+      213: -1987034885164638928
+    second: Akaza_ClosePunch_14
+  - first:
+      213: -7629291232881152989
+    second: Akaza_ClosePunch_15
+  - first:
+      213: -1051145914279579647
+    second: Akaza_ClosePunch_16
+  - first:
+      213: -2454568363257656808
+    second: Akaza_ClosePunch_17
+  - first:
+      213: 699206527814972535
+    second: Akaza_ClosePunch_18
+  - first:
+      213: -899537917237513899
+    second: Akaza_ClosePunch_19
+  - first:
+      213: 7667622565458905347
+    second: Akaza_ClosePunch_20
+  - first:
+      213: 1032436691957918841
+    second: Akaza_ClosePunch_21
+  - first:
+      213: 4941493675770846193
+    second: Akaza_ClosePunch_22
+  - first:
+      213: 255383923390290664
+    second: Akaza_ClosePunch_23
+  - first:
+      213: 1312621985104697087
+    second: Akaza_ClosePunch_24
+  - first:
+      213: 6972259192278641890
+    second: Akaza_ClosePunch_25
+  - first:
+      213: -4498867819523126703
+    second: Akaza_ClosePunch_26
+  - first:
+      213: 2233087004231074758
+    second: Akaza_ClosePunch_27
+  - first:
+      213: 7386893065035766472
+    second: Akaza_ClosePunch_28
+  - first:
+      213: -4105663700497618179
+    second: Akaza_ClosePunch_29
+  - first:
+      213: -4440417278265545565
+    second: Akaza_ClosePunch_30
+  - first:
+      213: 5887368177523374750
+    second: Akaza_ClosePunch_31
+  - first:
+      213: 1696868939954544842
+    second: Akaza_ClosePunch_32
+  - first:
+      213: -4020017551076477768
+    second: Akaza_ClosePunch_33
+  - first:
+      213: 3562751493786503224
+    second: Akaza_ClosePunch_34
+  - first:
+      213: 5768530686075088211
+    second: Akaza_ClosePunch_35
+  - first:
+      213: -428871602259162015
+    second: Akaza_ClosePunch_36
+  - first:
+      213: 712839364173430647
+    second: Akaza_ClosePunch_37
+  - first:
+      213: -8644055377637591043
+    second: Akaza_ClosePunch_38
+  - first:
+      213: -8539497440911224181
+    second: Akaza_ClosePunch_39
+  - first:
+      213: 5991589773478999708
+    second: Akaza_ClosePunch_40
+  - first:
+      213: 3160676486778635558
+    second: Akaza_ClosePunch_41
+  - first:
+      213: -3611074196303943506
+    second: Akaza_ClosePunch_42
+  - first:
+      213: 6641538716773994562
+    second: Akaza_ClosePunch_43
+  - first:
+      213: 9184864465943195398
+    second: Akaza_ClosePunch_44
+  - first:
+      213: -809871612602535906
+    second: Akaza_ClosePunch_45
+  - first:
+      213: -3945551141895312627
+    second: Akaza_ClosePunch_46
+  - first:
+      213: -6036817846907689567
+    second: Akaza_ClosePunch_47
+  - first:
+      213: 5646429538377956303
+    second: Akaza_ClosePunch_48
+  - first:
+      213: 4262854254061443133
+    second: Akaza_ClosePunch_49
+  - first:
+      213: 3890557904329845441
+    second: Akaza_ClosePunch_50
+  - first:
+      213: -6949857154087577213
+    second: Akaza_ClosePunch_51
+  - first:
+      213: 7197111760023857094
+    second: Akaza_ClosePunch_52
+  - first:
+      213: -202054082987344072
+    second: Akaza_ClosePunch_53
+  - first:
+      213: 2791808676309064162
+    second: Akaza_ClosePunch_54
+  - first:
+      213: 4608303911899691627
+    second: Akaza_ClosePunch_55
+  - first:
+      213: -902816034775647616
+    second: Akaza_ClosePunch_56
+  - first:
+      213: 1440359159276501490
+    second: Akaza_ClosePunch_57
+  - first:
+      213: 4100977780707668211
+    second: Akaza_ClosePunch_58
+  - first:
+      213: 7936672737102916923
+    second: Akaza_ClosePunch_59
+  - first:
+      213: 1635617577947614774
+    second: Akaza_ClosePunch_60
+  - first:
+      213: 100482216926818854
+    second: Akaza_ClosePunch_61
+  - first:
+      213: -6833073619674640552
+    second: Akaza_ClosePunch_62
+  - first:
+      213: 5509780152191204990
+    second: Akaza_ClosePunch_63
+  - first:
+      213: -6930816812781226317
+    second: Akaza_ClosePunch_64
+  - first:
+      213: -8279151453222632689
+    second: Akaza_ClosePunch_65
+  - first:
+      213: 4601191713071278933
+    second: Akaza_ClosePunch_66
+  - first:
+      213: -8086560120197749910
+    second: Akaza_ClosePunch_67
+  - first:
+      213: -4860136001591669258
+    second: Akaza_ClosePunch_68
+  - first:
+      213: -7679261514778887630
+    second: Akaza_ClosePunch_69
+  - first:
+      213: -8634876263992722600
+    second: Akaza_ClosePunch_70
+  - first:
+      213: 6533382504577211159
+    second: Akaza_ClosePunch_71
+  - first:
+      213: -7042998848524910446
+    second: Akaza_ClosePunch_72
+  - first:
+      213: 6536078654185840372
+    second: Akaza_ClosePunch_73
+  - first:
+      213: -487962921436463311
+    second: Akaza_ClosePunch_74
+  - first:
+      213: 8712855821420092828
+    second: Akaza_ClosePunch_75
+  - first:
+      213: -3752722538107334861
+    second: Akaza_ClosePunch_76
+  - first:
+      213: -6760671048452789377
+    second: Akaza_ClosePunch_77
+  - first:
+      213: -5639886512817623681
+    second: Akaza_ClosePunch_78
+  - first:
+      213: 6432332707833051134
+    second: Akaza_ClosePunch_79
+  - first:
+      213: 8187882781243167790
+    second: Akaza_ClosePunch_80
+  - first:
+      213: 2518150175183114459
+    second: Akaza_ClosePunch_81
+  - first:
+      213: 3887675599453740369
+    second: Akaza_ClosePunch_82
+  - first:
+      213: -6616949366813213084
+    second: Akaza_ClosePunch_83
+  - first:
+      213: -5028862545354345217
+    second: Akaza_ClosePunch_84
+  - first:
+      213: -904093966204345772
+    second: Akaza_ClosePunch_85
+  - first:
+      213: 7311344645422334395
+    second: Akaza_ClosePunch_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 223.24324
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Punch_00_Guard
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.068359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb8a4a92847074fbf450844a98e231
+      internalID: 1291654339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch_01_Windup
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.06640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23b382f55be8bf8aa730ade350e4aa8
+      internalID: -718682720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch_02_Launch
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.064453125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8315564459bfd26b8e801cc7e230c6
+      internalID: -374938962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch_03_Contact
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.091796875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd49708209b9d17794a417f74401128
+      internalID: -1023490646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch_04_Recover
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.091796875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fad48c6fe00e471a826862ac32fbc2
+      internalID: 74324965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch_05_Settle
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49804688, y: 0.091796875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1d298b662ecdf39cdc1ae963186f3
+      internalID: -2147028445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1809b51637823c1a8cd422009887da8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Punch_00_Guard: 1291654339
+      Punch_01_Windup: -718682720
+      Punch_02_Launch: -374938962
+      Punch_03_Contact: -1023490646
+      Punch_04_Recover: 74324965
+      Punch_05_Settle: -2147028445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
