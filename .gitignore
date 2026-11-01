@@ -9,6 +9,10 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 
+# Unity crash-recovery scenes are local backups, not game content.
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
 # IDE generated files
 /.idea/
 /.vs/
@@ -24,6 +28,7 @@
 # Local tools and credentials
 /.aws/
 /.codex/
+/.agents/
 /.vexp/
 .env
 .env.*

@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 0d04e1fe5a1093d6e84dcecbcecace28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -415831862296756228
+    second: Giyu_Protection_0
+  - first:
+      213: 2504344736073775502
+    second: Giyu_Protection_1
+  - first:
+      213: -9063701210991192969
+    second: Giyu_Protection_2
+  - first:
+      213: -7348838882721886004
+    second: Giyu_Protection_3
+  - first:
+      213: 1057706470015340183
+    second: Giyu_Protection_4
+  - first:
+      213: -2977004682599436442
+    second: Giyu_Protection_5
+  - first:
+      213: -3901093653263552194
+    second: Giyu_Protection_6
+  - first:
+      213: 5456266336128519861
+    second: Giyu_Protection_7
+  - first:
+      213: -5711689255987538682
+    second: Giyu_Protection_8
+  - first:
+      213: 895292075827765333
+    second: Giyu_Protection_9
+  - first:
+      213: 8195856323135302083
+    second: Giyu_Protection_10
+  - first:
+      213: -3282887358257787220
+    second: Giyu_Protection_11
+  - first:
+      213: -3578491606718742835
+    second: Giyu_Protection_12
+  - first:
+      213: 3968650723806531888
+    second: Giyu_Protection_13
+  - first:
+      213: -7004009050899231204
+    second: Giyu_Protection_14
+  - first:
+      213: 6034033028052547325
+    second: Giyu_Protection_15
+  - first:
+      213: 2236533549598729471
+    second: Giyu_Protection_16
+  - first:
+      213: -1537583605505855554
+    second: Giyu_Protection_17
+  - first:
+      213: 7062432028502365310
+    second: Giyu_Protection_18
+  - first:
+      213: 2391429585859162144
+    second: Giyu_Protection_19
+  - first:
+      213: -2033619854965861718
+    second: Giyu_Protection_20
+  - first:
+      213: 3701212085555010439
+    second: Giyu_Protection_21
+  - first:
+      213: 2319318559139824353
+    second: Giyu_Protection_22
+  - first:
+      213: 1477266702344021883
+    second: Giyu_Protection_23
+  - first:
+      213: -3823888749406411170
+    second: Giyu_Protection_24
+  - first:
+      213: -3986648387424516138
+    second: Giyu_Protection_25
+  - first:
+      213: 6935663369081797992
+    second: Giyu_Protection_26
+  - first:
+      213: 8119117099097620672
+    second: Giyu_Protection_27
+  - first:
+      213: 1945426921766452212
+    second: Giyu_Protection_28
+  - first:
+      213: -5807613801278783864
+    second: Giyu_Protection_29
+  - first:
+      213: 1555804538157881688
+    second: Giyu_Protection_30
+  - first:
+      213: 6119259963519950224
+    second: Giyu_Protection_31
+  - first:
+      213: 7213248000445910281
+    second: Giyu_Protection_32
+  - first:
+      213: 1453038157939540423
+    second: Giyu_Protection_33
+  - first:
+      213: 9063588613090192349
+    second: Giyu_Protection_34
+  - first:
+      213: 6272381681281575641
+    second: Giyu_Protection_35
+  - first:
+      213: -8187596600182423859
+    second: Giyu_Protection_36
+  - first:
+      213: -7661642869569824042
+    second: Giyu_Protection_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 144.44444
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protection_00_Intercept
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 691
+        width: 365
+        height: 395
+      alignment: 9
+      pivot: {x: 0.46575344, y: 0.06835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f707ad92c6613192ae3642108cb5c37
+      internalID: -173165283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protection_03_Windup
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 691
+        width: 363
+        height: 395
+      alignment: 9
+      pivot: {x: 0.5647383, y: 0.06835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7428f8c3e57077188b8e1555763b0119
+      internalID: -164290686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protection_04_Rise
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 350
+        height: 335
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.07164179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68dc1d82629b8efa303723d850ce62
+      internalID: 1018971294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protection_05_Counter
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 356
+        width: 402
+        height: 335
+      alignment: 9
+      pivot: {x: 0.38557214, y: 0.07164179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafb9ab9592400ab18440c0197be6465
+      internalID: 12710999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protection_06_FollowThrough
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 356
+        width: 397
+        height: 335
+      alignment: 9
+      pivot: {x: 0.37279597, y: 0.07164179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da74c087b4986837bb3e9a2e7002eb4
+      internalID: -1657194718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e851256e28303ef6b9128e23d29473eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Protection_00_Intercept: -173165283
+      Protection_03_Windup: -164290686
+      Protection_04_Rise: 1018971294
+      Protection_05_Counter: 12710999
+      Protection_06_FollowThrough: -1657194718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

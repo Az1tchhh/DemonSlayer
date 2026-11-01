@@ -34,7 +34,7 @@ namespace DemonSlayer.Prototype
         {
             int state = IdleState;
             float progress = 0;
-            bool walking = demon.isActiveAndEnabled && Mathf.Abs(body.linearVelocity.x) > .1f;
+            bool walking = demon.isActiveAndEnabled && !demon.IsKnockedBack && Mathf.Abs(body.linearVelocity.x) > .1f;
             idleTime += Time.deltaTime;
             walkPhase = walking ? Mathf.Repeat(walkPhase + Mathf.Abs(body.linearVelocity.x) * Time.deltaTime / walkStrideLength, 1f) : 0;
             if (demon.Health.IsDead)

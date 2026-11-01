@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: fb758a54e1a325e9a825f497249f46b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2209008131234641439
+    second: Inosuke_Flurry_0
+  - first:
+      213: 5842434419581452601
+    second: Inosuke_Flurry_1
+  - first:
+      213: -5663425314748549616
+    second: Inosuke_Flurry_2
+  - first:
+      213: 3500941441304864774
+    second: Inosuke_Flurry_3
+  - first:
+      213: -2309453479299848620
+    second: Inosuke_Flurry_4
+  - first:
+      213: 5929611093116455654
+    second: Inosuke_Flurry_5
+  - first:
+      213: -8437457993456009337
+    second: Inosuke_Flurry_6
+  - first:
+      213: 6888239846577085576
+    second: Inosuke_Flurry_7
+  - first:
+      213: 6580832198298945171
+    second: Inosuke_Flurry_8
+  - first:
+      213: 6772722126871655288
+    second: Inosuke_Flurry_9
+  - first:
+      213: 5630937880661687426
+    second: Inosuke_Flurry_10
+  - first:
+      213: -5167343630295013702
+    second: Inosuke_Flurry_11
+  - first:
+      213: -1352367973133011748
+    second: Inosuke_Flurry_12
+  - first:
+      213: 3773079743486081433
+    second: Inosuke_Flurry_13
+  - first:
+      213: -4288630788804585544
+    second: Inosuke_Flurry_14
+  - first:
+      213: 5108926059890299566
+    second: Inosuke_Flurry_15
+  - first:
+      213: -1505529868666632464
+    second: Inosuke_Flurry_16
+  - first:
+      213: -3746278969371295035
+    second: Inosuke_Flurry_17
+  - first:
+      213: 6448482531099371946
+    second: Inosuke_Flurry_18
+  - first:
+      213: 3062569677857725830
+    second: Inosuke_Flurry_19
+  - first:
+      213: 3385883274891922595
+    second: Inosuke_Flurry_20
+  - first:
+      213: -4274453331291881372
+    second: Inosuke_Flurry_21
+  - first:
+      213: 567535571483058960
+    second: Inosuke_Flurry_22
+  - first:
+      213: 6168786291720111180
+    second: Inosuke_Flurry_23
+  - first:
+      213: 1543941617440404648
+    second: Inosuke_Flurry_24
+  - first:
+      213: -8270462980792309391
+    second: Inosuke_Flurry_25
+  - first:
+      213: 1339229140684148706
+    second: Inosuke_Flurry_26
+  - first:
+      213: -3181956624630395554
+    second: Inosuke_Flurry_27
+  - first:
+      213: -1284663389925999047
+    second: Inosuke_Flurry_28
+  - first:
+      213: 8535724868116107554
+    second: Inosuke_Flurry_29
+  - first:
+      213: -9121170031083199387
+    second: Inosuke_Flurry_30
+  - first:
+      213: 8567452660378717189
+    second: Inosuke_Flurry_31
+  - first:
+      213: -7852310841068627009
+    second: Inosuke_Flurry_32
+  - first:
+      213: -3856597485053903259
+    second: Inosuke_Flurry_33
+  - first:
+      213: -8920073886848075932
+    second: Inosuke_Flurry_34
+  - first:
+      213: -5025698341588776980
+    second: Inosuke_Flurry_35
+  - first:
+      213: 7931103733339858596
+    second: Inosuke_Flurry_36
+  - first:
+      213: -1022731939703643028
+    second: Inosuke_Flurry_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 226.16278
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assist_00_Ready
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 680
+        height: 460
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b295f558fcbcf2ada45b503df84b34b
+      internalID: -99404031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_01_Windup
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 794
+        width: 574
+        height: 460
+      alignment: 9
+      pivot: {x: 0.41811848, y: 0.034782607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d422ad41ea4efa0faf8ce0efaf4efe8
+      internalID: -2145582296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_02_HitOne
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 700
+        height: 380
+      alignment: 9
+      pivot: {x: 0.44285715, y: 0.007894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067622dae7877a2cb6e06ea8e74f92d
+      internalID: 1627692919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_03_HitTwo
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 414
+        width: 554
+        height: 380
+      alignment: 9
+      pivot: {x: 0.41516244, y: 0.010526316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d8e338ec4635a4bb0acc028da2442
+      internalID: 547029446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_04_HitThree
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 657
+        height: 414
+      alignment: 9
+      pivot: {x: 0.46423134, y: 0.08454106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73972715dfe243644a81dfa140882eb2
+      internalID: -498043690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assist_05_Recover
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 597
+        height: 414
+      alignment: 9
+      pivot: {x: 0.44053602, y: 0.096618354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87fb99e68f6f3e0d9863fcff2d7e63c
+      internalID: -1214741466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 34527867b8619cfaf90f229fcf76c331
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assist_00_Ready: -99404031
+      Assist_01_Windup: -2145582296
+      Assist_02_HitOne: 1627692919
+      Assist_03_HitTwo: 547029446
+      Assist_04_HitThree: -498043690
+      Assist_05_Recover: -1214741466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

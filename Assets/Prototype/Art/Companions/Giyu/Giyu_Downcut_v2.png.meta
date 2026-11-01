@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: a3445124648f559fd84a8df12815add0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 978867912972485839
+    second: Giyu_Downcut_v2_0
+  - first:
+      213: -3983991976014214274
+    second: Giyu_Downcut_v2_1
+  - first:
+      213: -7183573330994589428
+    second: Giyu_Downcut_v2_2
+  - first:
+      213: 2426503729482073808
+    second: Giyu_Downcut_v2_3
+  - first:
+      213: 8050125874944318228
+    second: Giyu_Downcut_v2_4
+  - first:
+      213: -933865162267536640
+    second: Giyu_Downcut_v2_5
+  - first:
+      213: -3382141740228431286
+    second: Giyu_Downcut_v2_6
+  - first:
+      213: -5686023762186431746
+    second: Giyu_Downcut_v2_7
+  - first:
+      213: -4723201009392946521
+    second: Giyu_Downcut_v2_8
+  - first:
+      213: -8332224312953326006
+    second: Giyu_Downcut_v2_9
+  - first:
+      213: 5161058757018430274
+    second: Giyu_Downcut_v2_10
+  - first:
+      213: 255116375310903056
+    second: Giyu_Downcut_v2_11
+  - first:
+      213: 4238687935116009025
+    second: Giyu_Downcut_v2_12
+  - first:
+      213: -2709462224417841001
+    second: Giyu_Downcut_v2_13
+  - first:
+      213: -1017212706262188991
+    second: Giyu_Downcut_v2_14
+  - first:
+      213: -4675029375944045956
+    second: Giyu_Downcut_v2_15
+  - first:
+      213: -4327306689147739174
+    second: Giyu_Downcut_v2_16
+  - first:
+      213: 7196914801027542361
+    second: Giyu_Downcut_v2_17
+  - first:
+      213: -680083608842632081
+    second: Giyu_Downcut_v2_18
+  - first:
+      213: 1961521013494404848
+    second: Giyu_Downcut_v2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Downcut_00_Prepare
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 524
+        height: 560
+      alignment: 9
+      pivot: {x: 0.57251906, y: 0.046428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa11945680de3d3b8b49cba9465797c6
+      internalID: -1294039754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Downcut_01_Descend
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 976
+        width: 500
+        height: 560
+      alignment: 9
+      pivot: {x: 0.512, y: 0.046428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00df0914793e70d6b97a46316022114b
+      internalID: 1640459766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Downcut_02_Contact
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 574
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5052265, y: 0.05894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971bfa270eff6e0289ade861d1bc2bb2
+      internalID: -304623016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Downcut_03_FollowThrough
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 501
+        width: 450
+        height: 475
+      alignment: 9
+      pivot: {x: 0.48, y: 0.05894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63999427e1779337953fa35c16f8fee
+      internalID: -1315742353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retreat_00_Step
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 556
+        height: 501
+      alignment: 9
+      pivot: {x: 0.5935252, y: 0.075848304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36222160f03728e858aeda4aa90accd8
+      internalID: -587808365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retreat_01_Hold
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 468
+        height: 501
+      alignment: 9
+      pivot: {x: 0.6282051, y: 0.075848304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a8a5a15389dd78987bbec4e760bc4a
+      internalID: 39259988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d68189dbc294792d58f82406f3d2215f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Downcut_00_Prepare: -1294039754
+      Downcut_01_Descend: 1640459766
+      Downcut_02_Contact: -304623016
+      Downcut_03_FollowThrough: -1315742353
+      Retreat_00_Step: -587808365
+      Retreat_01_Hold: 39259988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

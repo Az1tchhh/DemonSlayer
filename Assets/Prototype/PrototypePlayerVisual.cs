@@ -71,6 +71,9 @@ namespace DemonSlayer.Prototype
                 state = DeathState;
                 progress = Mathf.Clamp01((Time.time - player.Health.DeathTime) / deathDuration);
             }
+            else if (alive && player.IsDashing) { state = RunState; progress = player.DashProgress; }
+            else if (alive && player.IsBeingRescued) { state = IdleState; progress = 0; }
+            else if (alive && player.IsBlocking) { state = IdleState; progress = 0; }
             else if (slashing)
             {
                 if (player.IsClearBlueSky) { state = SkyState; progress = player.ClearBlueSkyProgress; }
@@ -95,7 +98,8 @@ namespace DemonSlayer.Prototype
             animator.Play(state, 0, progress);
             animator.Update(0);
             visual.flipX = player.Facing < 0;
-            visual.color = Color.white;
+            visual.color = alive && player.IsBeingRescued ? new Color(.7f, .95f, 1f) : alive && player.IsDashing ? new Color(.65f, .9f, 1f, .65f) :
+                alive && player.IsBlocking ? new Color(.7f, .85f, 1f) : Color.white;
             // Rotate only the tucked drawing around the body center; physics stays upright.
             bool spinning = slashing && player.IsWaterWheeling && progress >= PrototypePlayer.WheelLaunch && progress < PrototypePlayer.WheelSpinEnd;
             bool skySpinning = slashing && player.IsClearBlueSky && progress >= PrototypePlayer.SkyLaunch && progress < PrototypePlayer.SkySpinEnd;
