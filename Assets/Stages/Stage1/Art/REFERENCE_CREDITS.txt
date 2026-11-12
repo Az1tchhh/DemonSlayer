@@ -1,0 +1,23 @@
+STAGE 1 - USER-SUPPLIED ENVIRONMENT REFERENCES
+Supplied by the project owner in this conversation on 2026-11-01.
+
+01_FinalSelectionEntrance.png
+Attachment #1: "Вход на финальный отбор" (Final Selection entrance).
+02_WisteriaForest.png
+Attachment #2: "Лес глициний" (Wisteria forest).
+03_MoonlitForest.png
+Attachment #3: "Мрачный лес и лунный свет" (Dark forest and moonlight).
+
+The attachment order and labels above follow the user's explicit direction.
+These exact supplied paintings are used as initial scene artwork, with background
+and ground sprite rectangles authored in Unity. The PNG originals are unchanged.
+Scene: Assets/Stages/Stage1/Stage1_FinalSelection.unity
+
+Original artist, external source URL, and license: not supplied / unverified.
+These are not attributed to Unity Asset Store publishers or to anime production
+artists. No external marketplace asset was downloaded or purchased for this pass.
+No AI artwork was generated for this pass.
+
+Before external distribution, replace this provenance placeholder with the
+original source and applicable usage/credit terms, or replace the paintings
+with assets whose usage terms are known.

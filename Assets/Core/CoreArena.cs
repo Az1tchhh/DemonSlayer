@@ -2,20 +2,22 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
-    public sealed class PrototypeArena : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeArena")]
+    public sealed class CoreArena : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        [SerializeField] private PrototypeDemon demon;
+        [SerializeField] private CorePlayer player;
+        [SerializeField] private CoreDemon demon;
         [SerializeField] private Transform checkpoint;
         [SerializeField] private SpriteRenderer checkpointVisual;
         [SerializeField] private TMP_Text status;
         [SerializeField] private TMP_Text message;
         [SerializeField] private string enemyName = "DEMON";
-        [SerializeField] private PrototypeZenitsuAssist zenitsu;
-        [SerializeField] private PrototypeCompanionSelection companions;
-        [SerializeField] private PrototypeGiyuProtection giyu;
+        [SerializeField] private string routeHint = "Cross the low step and reach the green checkpoint";
+        [SerializeField] private CoreZenitsuAssist zenitsu;
+        [SerializeField] private CoreCompanionSelection companions;
+        [SerializeField] private CoreGiyuProtection giyu;
         private InputAction retry;
         private Vector2 spawn, enemySpawn;
         public bool CheckpointActive { get; private set; }
@@ -46,15 +48,16 @@ namespace DemonSlayer.Prototype
             string dash = player.IsDashing ? "ACTIVE" : player.DashRemaining > 0 ? $"{player.DashRemaining:0.0}s" : "READY";
             string dashHint = player.DashEnabled ? $"     SHIFT DASH  {dash}" : "";
             string block = player.IsBlocking ? "GUARDING" : "HOLD";
-            string assist = !zenitsu ? "" : $"     L ZENITSU  {(zenitsu.IsActive ? "ACTIVE" : zenitsu.Remaining > 0 ? $"{zenitsu.Remaining:0.0}s" : "READY")}";
-            if (companions)
+            string assist = !zenitsu || !zenitsu.isActiveAndEnabled ? "" : $"     L ZENITSU  {(zenitsu.IsActive ? "ACTIVE" : zenitsu.Remaining > 0 ? $"{zenitsu.Remaining:0.0}s" : "READY")}";
+            if (companions && companions.isActiveAndEnabled)
                 assist = $"     L {companions.DisplayName}  {(companions.HasActiveAssist ? "ACTIVE" : companions.Remaining > 0 ? $"{companions.Remaining:0.0}s" : "READY")}";
-            string selectionHint = companions ? $"     [1/2/3 {(companions.SelectionLocked ? "LOCKED" : "SELECT")}]" : "";
+            string selectionHint = companions && companions.isActiveAndEnabled ? $"     [1/2/3 {(companions.SelectionLocked ? "LOCKED" : "SELECT")}]" : "";
             string protection = !giyu || !giyu.isActiveAndEnabled ? "" : $"   GIYU AUTO {(giyu.IsActive ? "SHIELD" : giyu.Remaining > 0 ? $"{giyu.Remaining:0.0}s" : "READY")}";
-            status.text = $"TANJIRO  {player.Health.Current}/{player.Health.Maximum}     {enemyName}  {demon.Health.Current}/{demon.Health.Maximum}     CHECKPOINT  {(CheckpointActive ? "ACTIVE" : "Ahead")}{selectionHint}\nQ SURFACE SLASH {kata}   E WATER WHEEL {wheel}   F FLOWING DANCE {dance}{protection}\nG  HINOKAMI: DANCE  {fire}     H  CLEAR BLUE SKY  {sky}{dashHint}     K BLOCK  {block}{assist}";
+            string fireHint = player.HinokamiUnlocked ? $"G  HINOKAMI: DANCE  {fire}     H  CLEAR BLUE SKY  {sky}     " : "";
+            status.text = $"TANJIRO  {player.Health.Current}/{player.Health.Maximum}     {enemyName}  {demon.Health.Current}/{demon.Health.Maximum}     CHECKPOINT  {(CheckpointActive ? "ACTIVE" : "Ahead")}{selectionHint}\nQ SURFACE SLASH {kata}   E WATER WHEEL {wheel}   F FLOWING DANCE {dance}{protection}\n{fireHint}K BLOCK  {block}{dashHint}{assist}";
             message.text = player.Health.IsDead ? "YOU FELL\nPress R to retry from your checkpoint" :
                 demon.Health.IsDead ? $"{enemyName} DEFEATED\nPress R to replay the encounter" :
-                CheckpointActive ? $"Checkpoint active — defeat {enemyName.ToLowerInvariant()} ahead" : "Cross the low step and reach the green checkpoint";
+                CheckpointActive ? $"Checkpoint active — defeat {enemyName.ToLowerInvariant()} ahead" : routeHint;
         }
         public void Retry()
         {

@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     // The visual child owns sprite animation only. Physics stays on the player root.
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypePlayerVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypePlayerVisual")]
+    public sealed class CorePlayerVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
+        [SerializeField] private CorePlayer player;
         [SerializeField, Min(.1f)] private float runStrideLength = 3f;
         [SerializeField, Min(.01f)] private float landingDuration = .12f;
         [SerializeField, Min(.01f)] private float hurtDuration = .2f;
@@ -101,11 +102,11 @@ namespace DemonSlayer.Prototype
             visual.color = alive && player.IsBeingRescued ? new Color(.7f, .95f, 1f) : alive && player.IsDashing ? new Color(.65f, .9f, 1f, .65f) :
                 alive && player.IsBlocking ? new Color(.7f, .85f, 1f) : Color.white;
             // Rotate only the tucked drawing around the body center; physics stays upright.
-            bool spinning = slashing && player.IsWaterWheeling && progress >= PrototypePlayer.WheelLaunch && progress < PrototypePlayer.WheelSpinEnd;
-            bool skySpinning = slashing && player.IsClearBlueSky && progress >= PrototypePlayer.SkyLaunch && progress < PrototypePlayer.SkySpinEnd;
+            bool spinning = slashing && player.IsWaterWheeling && progress >= CorePlayer.WheelLaunch && progress < CorePlayer.WheelSpinEnd;
+            bool skySpinning = slashing && player.IsClearBlueSky && progress >= CorePlayer.SkyLaunch && progress < CorePlayer.SkySpinEnd;
             transform.localPosition = spinning || skySpinning ? Vector3.zero : new Vector3(0, -.85f, 0);
-            float angle = spinning ? -360 * player.Facing * Mathf.InverseLerp(PrototypePlayer.WheelLaunch, PrototypePlayer.WheelSpinEnd, progress) : 0;
-            if (skySpinning) angle = -360 * player.Facing * Mathf.InverseLerp(PrototypePlayer.SkyLaunch, PrototypePlayer.SkySpinEnd, progress);
+            float angle = spinning ? -360 * player.Facing * Mathf.InverseLerp(CorePlayer.WheelLaunch, CorePlayer.WheelSpinEnd, progress) : 0;
+            if (skySpinning) angle = -360 * player.Facing * Mathf.InverseLerp(CorePlayer.SkyLaunch, CorePlayer.SkySpinEnd, progress);
             transform.localRotation = Quaternion.Euler(0, 0, angle);
         }
 

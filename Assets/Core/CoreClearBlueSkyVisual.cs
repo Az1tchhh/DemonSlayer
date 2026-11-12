@@ -1,11 +1,12 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeClearBlueSkyVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeClearBlueSkyVisual")]
+    public sealed class CoreClearBlueSkyVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
+        [SerializeField] private CorePlayer player;
         private static readonly int WheelState = Animator.StringToHash("Base Layer.ClearBlueSkyEffect");
         private Animator animator;
         private SpriteRenderer visual;
@@ -36,7 +37,7 @@ namespace DemonSlayer.Prototype
             animator.Update(0);
             visual.flipX = player.Facing < 0;
             visual.enabled = visual.sprite != null;
-            float spin = Mathf.InverseLerp(PrototypePlayer.SkyLaunch, PrototypePlayer.SkySpinEnd, player.ClearBlueSkyProgress);
+            float spin = Mathf.InverseLerp(CorePlayer.SkyLaunch, CorePlayer.SkySpinEnd, player.ClearBlueSkyProgress);
             transform.localRotation = Quaternion.Euler(0, 0, -120 * player.Facing * spin);
         }
         private void Hide()

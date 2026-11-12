@@ -1,11 +1,12 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeDemonVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeDemonVisual")]
+    public sealed class CoreDemonVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypeDemon demon;
+        [SerializeField] private CoreDemon demon;
         [SerializeField, Min(.1f)] private float walkStrideLength = 1.2f;
         [SerializeField, Min(.01f)] private float hurtDuration = .18f;
         [SerializeField, Min(.01f)] private float deathDuration = .7f;
