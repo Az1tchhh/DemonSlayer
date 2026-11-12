@@ -36,10 +36,12 @@ namespace DemonSlayer.Core
         {
             body = GetComponent<Rigidbody2D>();
             Health = GetComponent<CombatHealth>();
-            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
         }
         private void OnEnable()
         {
+            // Unity clears ignored collider pairs when an enemy is deactivated (for example on retry).
+            // Reapply on every activation so living enemies and corpses never block the player.
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
             if (Health != null) Health.Died += CancelCombat;
         }
         private void OnDisable()
