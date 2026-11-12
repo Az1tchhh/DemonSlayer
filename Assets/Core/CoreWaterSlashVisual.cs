@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeHinokamiDanceVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeWaterSlashVisual")]
+    public sealed class CoreWaterSlashVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        private static readonly int FireState = Animator.StringToHash("Base Layer.HinokamiEffect");
+        [SerializeField] private CorePlayer player;
+        private static readonly int WaterState = Animator.StringToHash("Base Layer.WaterEffect");
         private Animator animator;
         private SpriteRenderer visual;
 
@@ -27,14 +28,14 @@ namespace DemonSlayer.Prototype
         }
         private void LateUpdate()
         {
-            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsHinokamiDancing)
+            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsWaterSlashing)
             {
                 Hide();
                 return;
             }
             // Shared dimensions and attack time keep the art aligned with the hit box.
-            transform.localPosition = new Vector3(player.Facing * (PrototypePlayer.AttackStartOffset + PrototypePlayer.HinokamiReach / 2), PrototypePlayer.HinokamiHeightOffset, 0);
-            animator.Play(FireState, 0, player.HinokamiDanceProgress);
+            transform.localPosition = new Vector3(player.Facing * (CorePlayer.AttackStartOffset + CorePlayer.WaterSlashReach / 2), 0, 0);
+            animator.Play(WaterState, 0, player.WaterSlashProgress);
             animator.Update(0);
             visual.flipX = player.Facing < 0;
             visual.enabled = visual.sprite != null;

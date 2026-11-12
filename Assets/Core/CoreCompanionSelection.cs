@@ -1,16 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
-    public sealed class PrototypeCompanionSelection : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeCompanionSelection")]
+    public sealed class CoreCompanionSelection : MonoBehaviour
     {
         public enum Companion { Zenitsu, Inosuke, Nezuko }
-        [SerializeField] private PrototypePlayer player;
+        [SerializeField] private CorePlayer player;
         [SerializeField] private InputActionAsset inputTemplate;
-        [SerializeField] private PrototypeZenitsuAssist zenitsu;
-        [SerializeField] private PrototypeInosukeAssist inosuke;
-        [SerializeField] private PrototypeNezukoAssist nezuko;
+        [SerializeField] private CoreZenitsuAssist zenitsu;
+        [SerializeField] private CoreInosukeAssist inosuke;
+        [SerializeField] private CoreNezukoAssist nezuko;
         [SerializeField] private Companion selected = Companion.Zenitsu;
         [SerializeField, Min(0)] private float combatDistance = 9f;
         private readonly Collider2D[] nearby = new Collider2D[64];
@@ -63,7 +64,7 @@ namespace DemonSlayer.Prototype
                 new ContactFilter2D { useTriggers = false }, nearby);
             for (int i = 0; i < count; i++)
             {
-                var demon = nearby[i].GetComponentInParent<PrototypeDemon>();
+                var demon = nearby[i].GetComponentInParent<CoreDemon>();
                 if (demon && !demon.Health.IsDead) return true;
             }
             return false;

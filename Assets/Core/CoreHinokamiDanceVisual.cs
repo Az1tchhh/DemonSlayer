@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeFlowingDanceVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeHinokamiDanceVisual")]
+    public sealed class CoreHinokamiDanceVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        private static readonly int DanceState = Animator.StringToHash("Base Layer.FlowingDanceEffect");
+        [SerializeField] private CorePlayer player;
+        private static readonly int FireState = Animator.StringToHash("Base Layer.HinokamiEffect");
         private Animator animator;
         private SpriteRenderer visual;
 
@@ -14,9 +15,9 @@ namespace DemonSlayer.Prototype
         {
             animator = GetComponent<Animator>();
             visual = GetComponent<SpriteRenderer>();
-            animator.speed = 0;
             animator.applyRootMotion = false;
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
+            animator.speed = 0;
             Hide();
         }
         private void OnEnable() => player.ResetPerformed += Hide;
@@ -27,13 +28,14 @@ namespace DemonSlayer.Prototype
         }
         private void LateUpdate()
         {
-            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsFlowingDancing)
+            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsHinokamiDancing)
             {
                 Hide();
                 return;
             }
-            transform.localPosition = new Vector3(player.Facing * PrototypePlayer.DanceOffset, 0, 0);
-            animator.Play(DanceState, 0, player.FlowingDanceProgress);
+            // Shared dimensions and attack time keep the art aligned with the hit box.
+            transform.localPosition = new Vector3(player.Facing * (CorePlayer.AttackStartOffset + CorePlayer.HinokamiReach / 2), CorePlayer.HinokamiHeightOffset, 0);
+            animator.Play(FireState, 0, player.HinokamiDanceProgress);
             animator.Update(0);
             visual.flipX = player.Facing < 0;
             visual.enabled = visual.sprite != null;

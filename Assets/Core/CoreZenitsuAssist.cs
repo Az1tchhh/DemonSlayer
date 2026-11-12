@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
-    public sealed class PrototypeZenitsuAssist : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeZenitsuAssist")]
+    public sealed class CoreZenitsuAssist : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        [SerializeField] private PrototypeCompanionSelection companions;
+        [SerializeField] private CorePlayer player;
+        [SerializeField] private CoreCompanionSelection companions;
         [SerializeField] private InputActionAsset inputTemplate;
         [SerializeField] private Animator animator;
         [SerializeField] private SpriteRenderer visual;
@@ -87,7 +88,7 @@ namespace DemonSlayer.Prototype
 
         public bool TrySummon()
         {
-            if (companions && (!companions.isActiveAndEnabled || companions.Selected != PrototypeCompanionSelection.Companion.Zenitsu || companions.HasActiveAssist)) return false;
+            if (companions && (!companions.isActiveAndEnabled || companions.Selected != CoreCompanionSelection.Companion.Zenitsu || companions.HasActiveAssist)) return false;
             if (!isActiveAndEnabled || !player.isActiveAndEnabled || health.IsDead || player.IsBeingRescued || active ||
                 Time.time < nextUse || Time.timeScale <= 0 || !player.Grounded ||
                 Mathf.Abs(playerBody.linearVelocity.y) > .5f) return false;
@@ -101,7 +102,7 @@ namespace DemonSlayer.Prototype
             for (int i = 0; i < count; i++)
             {
                 var shape = hits[i].collider;
-                if (shape.GetComponentInParent<PrototypePlayer>() || shape.GetComponentInParent<PrototypeDemon>()) continue;
+                if (shape.GetComponentInParent<CorePlayer>() || shape.GetComponentInParent<CoreDemon>()) continue;
                 travel = Mathf.Min(travel, Mathf.Max(0, hits[i].distance - .05f));
             }
             started = Time.time;
@@ -127,11 +128,11 @@ namespace DemonSlayer.Prototype
             var filter = new ContactFilter2D { useTriggers = false };
             int count = Physics2D.BoxCast(from + Vector2.up * .85f, new Vector2(.5f, 1.5f), 0,
                 new Vector2(facing, 0), filter, hits, Mathf.Abs(to.x - from.x));
-            PrototypeDemon target = null;
+            CoreDemon target = null;
             float nearest = float.PositiveInfinity;
             for (int i = 0; i < count; i++)
             {
-                var demon = hits[i].collider.GetComponentInParent<PrototypeDemon>();
+                var demon = hits[i].collider.GetComponentInParent<CoreDemon>();
                 if (!demon || demon.Health.IsDead || (demon.transform.position.x - origin.x) * facing < 0) continue;
                 if (hits[i].distance < nearest) { nearest = hits[i].distance; target = demon; }
             }

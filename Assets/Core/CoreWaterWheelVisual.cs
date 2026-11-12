@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeWaterSlashVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeWaterWheelVisual")]
+    public sealed class CoreWaterWheelVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        private static readonly int WaterState = Animator.StringToHash("Base Layer.WaterEffect");
+        [SerializeField] private CorePlayer player;
+        private static readonly int WheelState = Animator.StringToHash("Base Layer.WaterWheelEffect");
         private Animator animator;
         private SpriteRenderer visual;
 
@@ -14,9 +15,9 @@ namespace DemonSlayer.Prototype
         {
             animator = GetComponent<Animator>();
             visual = GetComponent<SpriteRenderer>();
+            animator.speed = 0;
             animator.applyRootMotion = false;
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-            animator.speed = 0;
             Hide();
         }
         private void OnEnable() => player.ResetPerformed += Hide;
@@ -27,22 +28,23 @@ namespace DemonSlayer.Prototype
         }
         private void LateUpdate()
         {
-            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsWaterSlashing)
+            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsWaterWheeling)
             {
                 Hide();
                 return;
             }
-            // Shared dimensions and attack time keep the art aligned with the hit box.
-            transform.localPosition = new Vector3(player.Facing * (PrototypePlayer.AttackStartOffset + PrototypePlayer.WaterSlashReach / 2), 0, 0);
-            animator.Play(WaterState, 0, player.WaterSlashProgress);
+            animator.Play(WheelState, 0, player.WaterWheelProgress);
             animator.Update(0);
             visual.flipX = player.Facing < 0;
             visual.enabled = visual.sprite != null;
+            float spin = Mathf.InverseLerp(CorePlayer.WheelLaunch, CorePlayer.WheelSpinEnd, player.WaterWheelProgress);
+            transform.localRotation = Quaternion.Euler(0, 0, -120 * player.Facing * spin);
         }
         private void Hide()
         {
             visual.enabled = false;
             visual.sprite = null;
+            transform.localRotation = Quaternion.identity;
         }
     }
 }

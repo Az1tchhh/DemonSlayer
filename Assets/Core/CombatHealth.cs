@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "CombatHealth")]
     public sealed class CombatHealth : MonoBehaviour
     {
         [SerializeField] private int maximum = 100;

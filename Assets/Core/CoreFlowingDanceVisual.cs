@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
-    public sealed class PrototypeWaterWheelVisual : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeFlowingDanceVisual")]
+    public sealed class CoreFlowingDanceVisual : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        private static readonly int WheelState = Animator.StringToHash("Base Layer.WaterWheelEffect");
+        [SerializeField] private CorePlayer player;
+        private static readonly int DanceState = Animator.StringToHash("Base Layer.FlowingDanceEffect");
         private Animator animator;
         private SpriteRenderer visual;
 
@@ -27,23 +28,21 @@ namespace DemonSlayer.Prototype
         }
         private void LateUpdate()
         {
-            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsWaterWheeling)
+            if (!player.isActiveAndEnabled || player.Health.IsDead || !player.IsFlowingDancing)
             {
                 Hide();
                 return;
             }
-            animator.Play(WheelState, 0, player.WaterWheelProgress);
+            transform.localPosition = new Vector3(player.Facing * CorePlayer.DanceOffset, 0, 0);
+            animator.Play(DanceState, 0, player.FlowingDanceProgress);
             animator.Update(0);
             visual.flipX = player.Facing < 0;
             visual.enabled = visual.sprite != null;
-            float spin = Mathf.InverseLerp(PrototypePlayer.WheelLaunch, PrototypePlayer.WheelSpinEnd, player.WaterWheelProgress);
-            transform.localRotation = Quaternion.Euler(0, 0, -120 * player.Facing * spin);
         }
         private void Hide()
         {
             visual.enabled = false;
             visual.sprite = null;
-            transform.localRotation = Quaternion.identity;
         }
     }
 }

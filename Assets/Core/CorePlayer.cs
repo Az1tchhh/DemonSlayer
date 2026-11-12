@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D), typeof(CombatHealth))]
-    public sealed class PrototypePlayer : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypePlayer")]
+    public sealed class CorePlayer : MonoBehaviour
     {
         [SerializeField] private InputActionAsset inputTemplate;
-        [SerializeField] private PrototypeGiyuProtection giyu;
+        [SerializeField] private CoreGiyuProtection giyu;
         [SerializeField] private float speed = 6f;
         [SerializeField] private float jumpSpeed = 10f;
         [SerializeField] private float kataCooldown = 3f;
@@ -23,6 +24,7 @@ namespace DemonSlayer.Prototype
         [SerializeField, Min(.01f)] private float flowingDanceDuration = .8f;
         [SerializeField, Min(.01f)] private float flowingDanceCooldown = 6f;
         [SerializeField] private float flowingDanceSpeed = 8f;
+        [SerializeField, Tooltip("Available after the story unlock before Akaza. Test scenes keep the full kit.")] private bool hinokamiUnlocked = true;
         [SerializeField] private int flowingDanceDamage = 35;
         [SerializeField, Min(.01f)] private float hinokamiDanceDuration = .9f;
         [SerializeField, Min(.01f)] private float hinokamiDanceCooldown = 8f;
@@ -72,7 +74,7 @@ namespace DemonSlayer.Prototype
         private CombatHealth health;
         private readonly RaycastHit2D[] groundHits = new RaycastHit2D[4];
         private readonly Collider2D[] targets = new Collider2D[8];
-        private readonly HashSet<PrototypeDemon> hitDemons = new HashSet<PrototypeDemon>();
+        private readonly HashSet<CoreDemon> hitDemons = new HashSet<CoreDemon>();
         private float facing = 1, nextAttack, nextKata, nextWheel, nextDance, nextHinokami, nextSky, invulnerableUntil;
         private float attackStarted;
         private bool basicSlashActive, waterSlashActive, impactPending;
@@ -88,6 +90,7 @@ namespace DemonSlayer.Prototype
         public bool IsBeingRescued => giyu && giyu.IsActive;
         private float dashStarted, dashEnds, nextDash, dashDirection;
         public bool DashEnabled => dashEnabled;
+        public bool HinokamiUnlocked => hinokamiUnlocked;
         public bool IsDashing => dashEnabled && dashActive && Time.time < dashEnds && !health.IsDead && isActiveAndEnabled;
         public bool IsBlocking => blockHeld && Grounded && Mathf.Abs(body.linearVelocity.y) < .5f && !IsDashing && !IsBeingRescued && !IsAttacking && !health.IsDead && isActiveAndEnabled;
         public float DashRemaining => Mathf.Max(0, nextDash - Time.time);
@@ -129,11 +132,11 @@ namespace DemonSlayer.Prototype
             dash = map.FindAction("Sprint", true);
             block = map.FindAction("Block", true);
             attack.AddBinding("<Keyboard>/j");
-            kata = map.AddAction("PrototypeWaterSlash", InputActionType.Button, "<Keyboard>/q");
-            wheel = map.AddAction("PrototypeWaterWheel", InputActionType.Button, "<Keyboard>/e");
-            dance = map.AddAction("PrototypeFlowingDance", InputActionType.Button, "<Keyboard>/f");
-            sky = map.AddAction("PrototypeClearBlueSky", InputActionType.Button, "<Keyboard>/h");
-            hinokami = map.AddAction("PrototypeHinokamiDance", InputActionType.Button, "<Keyboard>/g");
+            kata = map.AddAction("CoreWaterSlash", InputActionType.Button, "<Keyboard>/q");
+            wheel = map.AddAction("CoreWaterWheel", InputActionType.Button, "<Keyboard>/e");
+            dance = map.AddAction("CoreFlowingDance", InputActionType.Button, "<Keyboard>/f");
+            sky = map.AddAction("CoreClearBlueSky", InputActionType.Button, "<Keyboard>/h");
+            hinokami = map.AddAction("CoreHinokamiDance", InputActionType.Button, "<Keyboard>/g");
         }
         private void OnEnable()
         {
@@ -295,14 +298,14 @@ namespace DemonSlayer.Prototype
             int count = Physics2D.OverlapBox(center, new Vector2(DanceWidth, DanceHeight), 0, filter, targets);
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (demon != null && hitDemons.Add(demon)) demon.Health.Damage(flowingDanceDamage);
             }
         }
 
         public bool TryHinokamiDance()
         {
-            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextHinokami ||
+            if (!hinokamiUnlocked || !isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextHinokami ||
                 !Grounded || Mathf.Abs(body.linearVelocity.y) > .5f) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + hinokamiDanceDuration;
@@ -322,14 +325,14 @@ namespace DemonSlayer.Prototype
             hitDemons.Clear();
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (demon != null && hitDemons.Add(demon)) demon.Health.Damage(hinokamiDanceDamage);
             }
         }
 
         public bool TryClearBlueSky()
         {
-            if (!isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextSky) return false;
+            if (!hinokamiUnlocked || !isActiveAndEnabled || health.IsDead || IsBeingRescued || IsDashing || IsBlocking || Time.time < nextAttack || Time.time < nextSky) return false;
             attackStarted = Time.time;
             nextAttack = Time.time + clearBlueSkyDuration;
             nextSky = Time.time + clearBlueSkyCooldown;
@@ -346,7 +349,7 @@ namespace DemonSlayer.Prototype
             int count = Physics2D.OverlapCircle(body.position, SkyRadius, filter, targets);
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (demon != null && hitDemons.Add(demon)) demon.Health.Damage(clearBlueSkyDamage);
             }
         }
@@ -357,7 +360,7 @@ namespace DemonSlayer.Prototype
             int count = Physics2D.OverlapCircle(body.position, WheelRadius, filter, targets);
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (demon != null && hitDemons.Add(demon)) demon.Health.Damage(waterWheelDamage);
             }
         }
@@ -372,7 +375,7 @@ namespace DemonSlayer.Prototype
             hitDemons.Clear();
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (demon != null && hitDemons.Add(demon)) demon.Health.Damage(water ? 40 : 20);
             }
         }

@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
-    public sealed class PrototypeGiyuProtection : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeGiyuProtection")]
+    public sealed class CoreGiyuProtection : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
+        [SerializeField] private CorePlayer player;
         [SerializeField] private Animator animator;
         [SerializeField] private SpriteRenderer visual;
         [SerializeField] private SpriteRenderer waterEffects;
@@ -29,7 +30,7 @@ namespace DemonSlayer.Prototype
         private static readonly int ProtectionState = Animator.StringToHash("Base Layer.Protection");
         private readonly Collider2D[] targets = new Collider2D[64];
         private readonly RaycastHit2D[] obstacles = new RaycastHit2D[32];
-        private readonly HashSet<PrototypeDemon> pushed = new HashSet<PrototypeDemon>();
+        private readonly HashSet<CoreDemon> pushed = new HashSet<CoreDemon>();
         private CombatHealth health;
         private Collider2D playerShape;
         private Vector2 origin, entranceStart;
@@ -144,7 +145,7 @@ namespace DemonSlayer.Prototype
             pushed.Clear();
             for (int i = 0; i < count; i++)
             {
-                var demon = targets[i].GetComponentInParent<PrototypeDemon>();
+                var demon = targets[i].GetComponentInParent<CoreDemon>();
                 if (!demon || !demon.isActiveAndEnabled || demon.Health.IsDead || pushed.Contains(demon) || WallBetween(center, targets[i].ClosestPoint(center))) continue;
                 pushed.Add(demon);
                 float delta = demon.transform.position.x - center.x;
@@ -156,7 +157,7 @@ namespace DemonSlayer.Prototype
             int count = Physics2D.Linecast(from, to,
                 new ContactFilter2D { useLayerMask = true, layerMask = environmentMask, useTriggers = false }, obstacles);
             for (int i = 0; i < count; i++)
-                if (!obstacles[i].collider.GetComponentInParent<PrototypePlayer>() && !obstacles[i].collider.GetComponentInParent<PrototypeDemon>()) return true;
+                if (!obstacles[i].collider.GetComponentInParent<CorePlayer>() && !obstacles[i].collider.GetComponentInParent<CoreDemon>()) return true;
             return false;
         }
         public void CancelProtection()

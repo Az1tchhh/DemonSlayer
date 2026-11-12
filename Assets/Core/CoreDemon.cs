@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
     [RequireComponent(typeof(Rigidbody2D), typeof(CombatHealth))]
-    public sealed class PrototypeDemon : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeDemon")]
+    public sealed class CoreDemon : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
+        [SerializeField] private CorePlayer player;
         [SerializeField] private float speed = 2f;
         [SerializeField] private int damage = 25;
         [SerializeField, Min(.01f)] private float attackDuration = .6f;
@@ -69,7 +70,7 @@ namespace DemonSlayer.Prototype
                     for (int i = 0; i < count; i++)
                     {
                         var hit = knockbackHits[i];
-                        if (hit.collider.GetComponentInParent<PrototypePlayer>() || Vector2.Dot(hit.normal, direction) >= -.1f) continue;
+                        if (hit.collider.GetComponentInParent<CorePlayer>() || Vector2.Dot(hit.normal, direction) >= -.1f) continue;
                         step = Mathf.Min(step, Mathf.Max(0, hit.distance - .01f));
                     }
                     body.linearVelocity = new Vector2(knockbackDirection * step / Time.fixedDeltaTime, body.linearVelocity.y);

@@ -1,26 +1,29 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DemonSlayer.Prototype
+namespace DemonSlayer.Core
 {
-    public sealed class PrototypeNezukoAssist : MonoBehaviour
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "DemonSlayer.Prototype", sourceAssembly: "Assembly-CSharp", sourceClassName: "PrototypeInosukeAssist")]
+    public sealed class CoreInosukeAssist : MonoBehaviour
     {
-        [SerializeField] private PrototypePlayer player;
-        [SerializeField] private PrototypeCompanionSelection companions;
+        [SerializeField] private CorePlayer player;
+        [SerializeField] private CoreCompanionSelection companions;
         [SerializeField] private InputActionAsset inputTemplate;
         [SerializeField] private Animator animator;
         [SerializeField] private SpriteRenderer visual;
-        [SerializeField, Min(1)] private int damage = 40;
-        [SerializeField, Min(0)] private float knockbackSpeed = 10f;
-        [SerializeField, Min(.01f)] private float knockbackDuration = .25f;
+        [SerializeField, Min(1)] private int damagePerHit = 15;
         [SerializeField, Min(1)] private float cooldown = 8f;
-        [SerializeField, Min(.1f)] private float reach = 2.3f;
+        [SerializeField, Min(.1f)] private float reach = 2.5f;
         [SerializeField] private LayerMask environmentMask = 1;
-        public const float ContactTime = .32f;
-        public const float Duration = .95f;
-        private static readonly int KickState = Animator.StringToHash("Base Layer.Assist");
+        public const float FirstContact = .24f;
+        public const float HitInterval = .16f;
+        public const int HitCount = 3;
+        public const float Duration = 1f;
+        private static readonly int FlurryState = Animator.StringToHash("Base Layer.Assist");
         private readonly Collider2D[] targets = new Collider2D[64];
         private readonly RaycastHit2D[] obstacles = new RaycastHit2D[32];
+        private readonly HashSet<CoreDemon> hitDemons = new HashSet<CoreDemon>();
         private InputActionAsset controls;
         private InputAction summon;
         private CombatHealth health;
@@ -28,7 +31,7 @@ namespace DemonSlayer.Prototype
         private Rigidbody2D body;
         private Vector2 origin;
         private float facing, started, nextUse;
-        private bool impactPending;
+        private int nextHit;
         private bool active;
         public bool IsActive => active;
         public float Remaining => Mathf.Max(0, nextUse - Time.time);
@@ -38,7 +41,7 @@ namespace DemonSlayer.Prototype
             if (!animator && visual) animator = visual.GetComponent<Animator>();
             if (!player || !companions || !inputTemplate || !animator || !visual || !animator.runtimeAnimatorController)
             {
-                Debug.LogError("Nezuko assist requires player, selection, input and an animated Nezuko visual.", this);
+                Debug.LogError("Inosuke assist requires player, selection, input and an animated Inosuke visual.", this);
                 enabled = false;
                 return;
             }
@@ -72,12 +75,12 @@ namespace DemonSlayer.Prototype
             if (summon.WasPressedThisFrame()) TrySummon();
             if (!active) return;
             float elapsed = Time.time - started;
-            if (impactPending && elapsed >= ContactTime)
+            while (nextHit < HitCount && elapsed >= FirstContact + nextHit * HitInterval)
             {
-                impactPending = false;
                 Strike();
+                nextHit++;
             }
-            animator.Play(KickState, 0, Mathf.Clamp01(elapsed / Duration));
+            animator.Play(FlurryState, 0, Mathf.Clamp01(elapsed / Duration));
             animator.Update(0);
             visual.flipX = facing < 0;
             visual.color = new Color(1, 1, 1, Mathf.Min(Mathf.Clamp01(elapsed / .06f), Mathf.Clamp01((Duration - elapsed) / .16f)));
@@ -87,54 +90,49 @@ namespace DemonSlayer.Prototype
         {
             if (!isActiveAndEnabled || !player.isActiveAndEnabled || health.IsDead || player.IsBeingRescued || active || Time.time < nextUse ||
                 Time.timeScale <= 0 || !player.Grounded || Mathf.Abs(body.linearVelocity.y) > .5f ||
-                !companions.isActiveAndEnabled || companions.Selected != PrototypeCompanionSelection.Companion.Nezuko || companions.HasActiveAssist) return false;
+                !companions.isActiveAndEnabled || companions.Selected != CoreCompanionSelection.Companion.Inosuke || companions.HasActiveAssist) return false;
             facing = player.Facing;
             origin = new Vector2(player.transform.position.x, playerShape.bounds.min.y);
             started = Time.time;
             nextUse = started + cooldown;
-            impactPending = true;
+            nextHit = 0;
             active = true;
             visual.transform.position = origin;
             visual.flipX = facing < 0;
             visual.color = Color.clear;
             visual.enabled = true;
-            animator.Play(KickState, 0, 0);
+            animator.Play(FlurryState, 0, 0);
             animator.Update(0);
             return true;
         }
         private void Strike()
         {
-            Vector2 from = origin + Vector2.up;
-            Vector2 center = from + new Vector2(facing * reach * .5f, 0);
-            int count = Physics2D.OverlapBox(center, new Vector2(reach + .4f, 1.8f), 0,
+            // Recheck each impact: moving out of the planted flurry avoids later hits.
+            Vector2 center = origin + new Vector2(facing * reach * .5f, 1f);
+            int count = Physics2D.OverlapBox(center, new Vector2(reach + .4f, 2f), 0,
                 new ContactFilter2D { useTriggers = false }, targets);
-            PrototypeDemon nearest = null;
-            float nearestDistance = float.PositiveInfinity;
+            hitDemons.Clear();
             for (int i = 0; i < count; i++)
             {
-                var target = targets[i].GetComponentInParent<PrototypeDemon>();
-                if (!target || target.Health.IsDead || (target.transform.position.x - origin.x) * facing < 0) continue;
+                var target = targets[i].GetComponentInParent<CoreDemon>();
+                if (!target || target.Health.IsDead || (target.transform.position.x - origin.x) * facing < 0 || hitDemons.Contains(target)) continue;
+                Vector2 from = origin + Vector2.up;
                 Vector2 to = targets[i].ClosestPoint(from);
-                float distance = Vector2.Distance(from, to);
-                if (distance >= nearestDistance) continue;
                 int walls = Physics2D.Linecast(from, to, new ContactFilter2D {
                     useLayerMask = true, layerMask = environmentMask, useTriggers = false }, obstacles);
                 bool blocked = false;
                 for (int j = 0; j < walls; j++)
-                    if (!obstacles[j].collider.GetComponentInParent<PrototypePlayer>() && !obstacles[j].collider.GetComponentInParent<PrototypeDemon>())
+                    if (!obstacles[j].collider.GetComponentInParent<CorePlayer>() && !obstacles[j].collider.GetComponentInParent<CoreDemon>())
                     { blocked = true; break; }
                 if (blocked) continue;
-                nearest = target;
-                nearestDistance = distance;
+                hitDemons.Add(target);
+                target.Health.Damage(damagePerHit);
             }
-            if (!nearest) return;
-            nearest.Health.Damage(damage);
-            nearest.ApplyKnockback(facing, knockbackSpeed, knockbackDuration);
         }
         private void Cancel()
         {
             active = false;
-            impactPending = false;
+            hitDemons.Clear();
             if (visual) { visual.enabled = false; visual.color = Color.white; }
         }
         private void ResetAssist() { Cancel(); nextUse = 0; }

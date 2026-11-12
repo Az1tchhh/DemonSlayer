@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e32567c846b0bf38392c3208c35912c2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeCompanionSelection
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreCompanionSelection
   player: {fileID: 1369269684}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   zenitsu: {fileID: 1217692237}
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfe90554d7189599ebead2a7076d2db4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeHandDemonVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreHandDemonVisual
   demon: {fileID: 663644446}
   walkStrideLength: 1.5
   idleDuration: 1.4
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 622a0a8c8023917aa9a63741d96d675c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypePlayerVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CorePlayerVisual
   player: {fileID: 1369269684}
   runStrideLength: 3
   landingDuration: 0.12
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57899f89db7b784b08fc963997a958f3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeHinokamiDanceVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreHinokamiDanceVisual
   player: {fileID: 1369269684}
 --- !u!95 &418816321
 Animator:
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef51d5fa95a778aa7bfecd401b5fa4fe, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeNezukoAssist
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreNezukoAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 621ead0576004e86c81a19206df3b07f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeDemon
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreDemon
   player: {fileID: 1369269684}
   speed: 1.5
   damage: 25
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5410bc97a93f5c0b09678875e53cd8cd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.CombatHealth
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CombatHealth
   maximum: 300
 --- !u!50 &663644448
 Rigidbody2D:
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a03d6df7b55ba264839386793936a4c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeArena
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreArena
   player: {fileID: 1369269684}
   demon: {fileID: 663644446}
   checkpoint: {fileID: 2127757377}
@@ -1775,6 +1775,7 @@ MonoBehaviour:
   status: {fileID: 442820631}
   message: {fileID: 1949316468}
   enemyName: HAND DEMON
+  routeHint: Cross the low step and reach the green checkpoint
   zenitsu: {fileID: 1217692237}
   companions: {fileID: 93773021}
   giyu: {fileID: 1564399246}
@@ -2114,7 +2115,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17034ffbd5b5d26ba978e3a89dd58b25, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeWaterSlashVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreWaterSlashVisual
   player: {fileID: 1369269684}
 --- !u!95 &1004778451
 Animator:
@@ -2243,7 +2244,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fde1571723b0d5009905be179e2ba80, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeFlowingDanceVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreFlowingDanceVisual
   player: {fileID: 1369269684}
 --- !u!95 &1019143266
 Animator:
@@ -2372,7 +2373,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f64e935a4d9efe4d0870773ed032e1a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeWaterWheelVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreWaterWheelVisual
   player: {fileID: 1369269684}
 --- !u!95 &1029266138
 Animator:
@@ -2576,7 +2577,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce4e83dbb2d8c6426a95b64e04fc530e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeZenitsuAssist
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreZenitsuAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -2775,7 +2776,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c32f507492f0f8378fa4e7b2a3cfb91, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypePlayer
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CorePlayer
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   giyu: {fileID: 1564399246}
   speed: 6
@@ -2791,6 +2792,7 @@ MonoBehaviour:
   flowingDanceDuration: 0.8
   flowingDanceCooldown: 6
   flowingDanceSpeed: 8
+  hinokamiUnlocked: 1
   flowingDanceDamage: 35
   hinokamiDanceDuration: 0.9
   hinokamiDanceCooldown: 8
@@ -2840,7 +2842,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5410bc97a93f5c0b09678875e53cd8cd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.CombatHealth
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CombatHealth
   maximum: 100
 --- !u!50 &1369269687
 Rigidbody2D:
@@ -3095,7 +3097,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad65341f3ec7a96b48f97a7064b28db7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeGiyuProtection
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreGiyuProtection
   player: {fileID: 1369269684}
   animator: {fileID: 186780712}
   visual: {fileID: 186780710}
@@ -3159,7 +3161,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 425d8f2143c53094d983aa7d16fd207f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeInosukeAssist
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreInosukeAssist
   player: {fileID: 1369269684}
   companions: {fileID: 93773021}
   inputTemplate: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -3371,7 +3373,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f4ae7d266e1c9e7ea863c95f66d1b59, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Prototype.PrototypeClearBlueSkyVisual
+  m_EditorClassIdentifier: Assembly-CSharp::DemonSlayer.Core.CoreClearBlueSkyVisual
   player: {fileID: 1369269684}
 --- !u!95 &1695848699
 Animator:
